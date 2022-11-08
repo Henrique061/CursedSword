@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Blade
+  - Shadow
+  - Earthquake
+  - Vine
+  - Tongue
+  - Laser
+  - Spike
+  - Spike1
+  - Spike2
+  - Spike3
+  - Spike4
+  - Spike5
+  - Transition1
+  - Transition2
+  - Training
+  - TrainingSkill
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Limits
+  - Player
+  - Ground
+  - Enemy
+  - Limits
+  - Shadow
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Tomb
+    uniqueID: 1475722985
+    locked: 0
+  - name: Mage
+    uniqueID: 3327763387
+    locked: 0
+  - name: Training
+    uniqueID: 18849189
+    locked: 0
+  - name: Player
+    uniqueID: 2759819709
+    locked: 0
+  - name: Soul
+    uniqueID: 3861953849
+    locked: 0
+  - name: Vine
+    uniqueID: 2821647695
+    locked: 0
+  - name: Particle
+    uniqueID: 1903293313
+    locked: 0
+  - name: UI
+    uniqueID: 3997053491
+    locked: 0

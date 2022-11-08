@@ -1,0 +1,9 @@
+Fonts:
+MENU - requiem - Chris Hansen
+TEXTO COMUM - RM Almanack - p2pnut
+NOME DE BOSS - BlackChancery - Doug Miles
+GAME OVER - Nosifer - Vernon Adams
+
+Musics
+boss music - Neostem
+Main menu - iDev Games

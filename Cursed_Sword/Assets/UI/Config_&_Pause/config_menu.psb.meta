@@ -1,0 +1,1354 @@
+fileFormatVersion: 2
+guid: 54ea7e59d1de04b458794ee50367ef19
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: divisoria_comandos
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 1696
+      width: 1173
+      height: 10
+    spriteID: 95f7616722e3b5840a3f69097140afe0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 399, y: 1107}
+  - name: divisoria
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 10
+      height: 1080
+    spriteID: 0342eb755d741ec4a874c206c31fb70d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 555, y: 4}
+  - name: logo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1388
+      width: 480
+      height: 351
+    spriteID: 90354019ec58b934fa517edc9887388f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1407, y: 704}
+  - name: riscos_skill2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 949
+      y: 1586
+      width: 217
+      height: 46
+    spriteID: be428d7b98aa03541aa90c907725cca6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 192, y: 655}
+  - name: riscos_skill1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 949
+      y: 1640
+      width: 217
+      height: 46
+    spriteID: 2a3ab4c30ecad624a862fcbe74c0006d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 763, y: 709}
+  - name: risco_jump
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1443
+      y: 1560
+      width: 292
+      height: 41
+    spriteID: 844475336323ed74e91354d1efb1ade6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 675, y: 785}
+  - name: risco_attack
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1596
+      y: 1178
+      width: 270
+      height: 5
+    spriteID: 64c6dbb6662a40840b649f285c406479
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 855, y: 332}
+  - name: risco_move_setas
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1673
+      y: 1696
+      width: 288
+      height: 5
+    spriteID: 213405decdec6fc468aee4fb63832522
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1395, y: 923}
+  - name: risco_move_stick
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1781
+      y: 1165
+      width: 202
+      height: 5
+    spriteID: 4808af9a8ab51084596f6879dcf9cdf5
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1475, y: 318}
+  - name: controle
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 492
+      y: 1388
+      width: 449
+      height: 300
+    spriteID: 150500c1ba6517d4e894855c8162439b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 68, y: 749}
+  - name: risco_attack_enter
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1202
+      y: 1165
+      width: 571
+      height: 5
+    spriteID: c9368fb0ff0c37249a1325627d292145
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 419, y: 867}
+  - name: risco_pause
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1763
+      y: 1596
+      width: 185
+      height: 5
+    spriteID: a7111b3dfd105cc4fb39bef8ce1e6279
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1717, y: 1181}
+  - name: riscos_move_ad
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1443
+      y: 1609
+      width: 311
+      height: 37
+    spriteID: 7cd9feb41a99ab3489b1761a57863dab
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1368, y: 1341}
+  - name: riscos_skill2_x
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1747
+      width: 180
+      height: 199
+    spriteID: 48ac545169768f641bf6781ed4a8c9cc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -86, y: 1719}
+  - name: riscos_skill1_z
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 1388
+      width: 162
+      height: 120
+    spriteID: 828c401a35eb7d448a7a0cd3ebe1df4e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1687, y: 1278}
+  - name: riscos_skill2_e
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 949
+      y: 1388
+      width: 357
+      height: 190
+    spriteID: 39690d1bba8f18d45ac2d51399abf7fa
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 558, y: 1074}
+  - name: riscos_skill_q
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1443
+      y: 1388
+      width: 157
+      height: 164
+    spriteID: ab4f2deed15199548b7b4ccea844cab7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1411, y: 1067}
+  - name: risco_attack_shift
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 912
+      y: 1201
+      width: 196
+      height: 5
+    spriteID: a83a3e1cb9c26a44794806964ccb286c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 862, y: 976}
+  - name: riscos_jump_space
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 315
+      y: 1924
+      width: 136
+      height: 88
+    spriteID: eb5bbb661b936eb4eb1ff9cc2acd4885
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -186, y: 1819}
+  - name: riscos_jump_w
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 315
+      y: 1747
+      width: 136
+      height: 169
+    spriteID: c018231ede6a81c4193de245dca3a5a3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -42, y: 1428}
+  - name: risco_set_cima
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1202
+      y: 1178
+      width: 386
+      height: 5
+    spriteID: 143631e88fe4a6a47b5017fa8e551964
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 309, y: 947}
+  - name: risco_setas
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1954
+      width: 232
+      height: 88
+    spriteID: b88fa313b3276f64592c36bf90073167
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -842, y: 1854}
+  - name: teclado
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 900
+      height: 288
+    spriteID: d0ce3594e37373447b25706db41dd9b9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -225, y: 927}
+  - name: fundo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: 6ea665317fe1d0c49bf6f249ebb9815d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  - name: 'RT: HABILIDADE 2'
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1443
+      y: 1654
+      width: 350
+      height: 28
+    spriteID: 5d5e9e8df8cab7b4c8023631f0ea7e87
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 683, y: 671}
+  - name: 'LT: HABILIDADE 1'
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 912
+      y: 1092
+      width: 339
+      height: 28
+    spriteID: 6242310d7b606524aa4fc456fae39cf3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 726, y: 108}
+  - name: PULAR
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1711
+      y: 1128
+      width: 137
+      height: 28
+    spriteID: 38c41d62cecbe9b4a91c75687f160587
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 771, y: 341}
+  - name: ATACAR
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1823
+      y: 1092
+      width: 177
+      height: 28
+    spriteID: eba29452939ea5e47a752d6499ff0a15
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 980, y: 233}
+  - name: MOVER
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1088
+      y: 1128
+      width: 148
+      height: 28
+    spriteID: a5df950fef344c14f97c98123b461789
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 811, y: 344}
+  - name: MOVER_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1556
+      y: 1128
+      width: 147
+      height: 28
+    spriteID: 0f32af87dcef9134492c5530d84a2fa1
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1250, y: 268}
+  - name: ATACAR_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1801
+      y: 1654
+      width: 177
+      height: 28
+    spriteID: 8818eade49dfdb347a59b78765198f52
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 626, y: 1343}
+  - name: PAUSAR
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 912
+      y: 1128
+      width: 168
+      height: 29
+    spriteID: b56046b02704f5e47a5d48e960489ef4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 864, y: 703}
+  - name: Camada 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1244
+      y: 1128
+      width: 148
+      height: 28
+    spriteID: 13b66158e2319fc42a226a9133e61389
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1169, y: 817}
+  - name: HABILIDADE 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1763
+      y: 1560
+      width: 280
+      height: 28
+    spriteID: 23d715edde7d01349a0feba53ac86510
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1672, y: 1517}
+  - name: HABILIDADE 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1259
+      y: 1092
+      width: 274
+      height: 28
+    spriteID: 5fa66a98a86fca44fbd04f03e9ee261a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1203, y: 971}
+  - name: HABILIDADE 2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1740
+      y: 1516
+      width: 280
+      height: 28
+    spriteID: d10a8d92b2698ef45b1a1b6d8320d2f9
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1147, y: 1007}
+  - name: HABILIDADE 1_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1541
+      y: 1092
+      width: 274
+      height: 28
+    spriteID: b45c87a52b8716643b69252de1e4355b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1507, y: 602}
+  - name: Camada 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1783
+      y: 1609
+      width: 177
+      height: 28
+    spriteID: 6af882fb8013ba748b805f07a3d1e07a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1737, y: 1373}
+  - name: PULAR_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1856
+      y: 1128
+      width: 137
+      height: 28
+    spriteID: 62a0ce4ba702b0148b93ed0fb735189f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1340, y: 1012}
+  - name: PULAR_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 912
+      y: 1165
+      width: 137
+      height: 28
+    spriteID: 769aa8bac861f9e44b3a1e3bca3acf94
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 553, y: 669}
+  - name: PULAR_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1057
+      y: 1165
+      width: 137
+      height: 28
+    spriteID: 93f11a97c4ff3a84e88593055e92fe9b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -85, y: 923}
+  - name: MOVER_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1400
+      y: 1128
+      width: 148
+      height: 28
+    spriteID: 76e7bc90fbe585746a114c033c92ee15
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 459, y: 1018}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 1920, y: 1080}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 2048
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: divisoria_comandos
+    spriteName: divisoria_comandos
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 95f7616722e3b5840a3f69097140afe0
+    layerID: 77
+    mosaicPosition: {x: 492, y: 1696}
+  - name: divisoria
+    spriteName: divisoria
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0342eb755d741ec4a874c206c31fb70d
+    layerID: 76
+    mosaicPosition: {x: 1932, y: 4}
+  - name: logo
+    spriteName: logo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 90354019ec58b934fa517edc9887388f
+    layerID: 75
+    mosaicPosition: {x: 4, y: 1388}
+  - name: controle
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+  - name: 'RT: HABILIDADE 2'
+    spriteName: 'RT: HABILIDADE 2'
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 5d5e9e8df8cab7b4c8023631f0ea7e87
+    layerID: 78
+    mosaicPosition: {x: 1443, y: 1654}
+  - name: riscos_skill2
+    spriteName: riscos_skill2
+    isGroup: 0
+    parentIndex: 3
+    spriteID: be428d7b98aa03541aa90c907725cca6
+    layerID: 72
+    mosaicPosition: {x: 949, y: 1586}
+  - name: 'LT: HABILIDADE 1'
+    spriteName: 'LT: HABILIDADE 1'
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 6242310d7b606524aa4fc456fae39cf3
+    layerID: 79
+    mosaicPosition: {x: 912, y: 1092}
+  - name: riscos_skill1
+    spriteName: riscos_skill1
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 2a3ab4c30ecad624a862fcbe74c0006d
+    layerID: 69
+    mosaicPosition: {x: 949, y: 1640}
+  - name: PULAR
+    spriteName: PULAR
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 38c41d62cecbe9b4a91c75687f160587
+    layerID: 80
+    mosaicPosition: {x: 1711, y: 1128}
+  - name: risco_jump
+    spriteName: risco_jump
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 844475336323ed74e91354d1efb1ade6
+    layerID: 64
+    mosaicPosition: {x: 1443, y: 1560}
+  - name: ATACAR
+    spriteName: ATACAR
+    isGroup: 0
+    parentIndex: 3
+    spriteID: eba29452939ea5e47a752d6499ff0a15
+    layerID: 81
+    mosaicPosition: {x: 1823, y: 1092}
+  - name: risco_attack
+    spriteName: risco_attack
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 64c6dbb6662a40840b649f285c406479
+    layerID: 62
+    mosaicPosition: {x: 1596, y: 1178}
+  - name: MOVER
+    spriteName: MOVER
+    isGroup: 0
+    parentIndex: 3
+    spriteID: a5df950fef344c14f97c98123b461789
+    layerID: 82
+    mosaicPosition: {x: 1088, y: 1128}
+  - name: risco_move_setas
+    spriteName: risco_move_setas
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 213405decdec6fc468aee4fb63832522
+    layerID: 60
+    mosaicPosition: {x: 1673, y: 1696}
+  - name: MOVER
+    spriteName: MOVER_1
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 0f32af87dcef9134492c5530d84a2fa1
+    layerID: 83
+    mosaicPosition: {x: 1556, y: 1128}
+  - name: risco_move_stick
+    spriteName: risco_move_stick
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 4808af9a8ab51084596f6879dcf9cdf5
+    layerID: 58
+    mosaicPosition: {x: 1781, y: 1165}
+  - name: controle
+    spriteName: controle
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 150500c1ba6517d4e894855c8162439b
+    layerID: 5
+    mosaicPosition: {x: 492, y: 1388}
+  - name: teclado
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 7
+    mosaicPosition: {x: 0, y: 0}
+  - name: ATACAR
+    spriteName: ATACAR_1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 8818eade49dfdb347a59b78765198f52
+    layerID: 91
+    mosaicPosition: {x: 1801, y: 1654}
+  - name: risco_attack_enter
+    spriteName: risco_attack_enter
+    isGroup: 0
+    parentIndex: 17
+    spriteID: c9368fb0ff0c37249a1325627d292145
+    layerID: 56
+    mosaicPosition: {x: 1202, y: 1165}
+  - name: PAUSAR
+    spriteName: PAUSAR
+    isGroup: 0
+    parentIndex: 17
+    spriteID: b56046b02704f5e47a5d48e960489ef4
+    layerID: 95
+    mosaicPosition: {x: 912, y: 1128}
+  - name: risco_pause
+    spriteName: risco_pause
+    isGroup: 0
+    parentIndex: 17
+    spriteID: a7111b3dfd105cc4fb39bef8ce1e6279
+    layerID: 54
+    mosaicPosition: {x: 1763, y: 1596}
+  - name: Camada 2
+    spriteName: Camada 2
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 13b66158e2319fc42a226a9133e61389
+    layerID: 93
+    mosaicPosition: {x: 1244, y: 1128}
+  - name: riscos_move_ad
+    spriteName: riscos_move_ad
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 7cd9feb41a99ab3489b1761a57863dab
+    layerID: 47
+    mosaicPosition: {x: 1443, y: 1609}
+  - name: HABILIDADE 2
+    spriteName: HABILIDADE 2
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 23d715edde7d01349a0feba53ac86510
+    layerID: 84
+    mosaicPosition: {x: 1763, y: 1560}
+  - name: riscos_skill2_x
+    spriteName: riscos_skill2_x
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 48ac545169768f641bf6781ed4a8c9cc
+    layerID: 44
+    mosaicPosition: {x: 4, y: 1747}
+  - name: HABILIDADE 1
+    spriteName: HABILIDADE 1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 5fa66a98a86fca44fbd04f03e9ee261a
+    layerID: 86
+    mosaicPosition: {x: 1259, y: 1092}
+  - name: riscos_skill1_z
+    spriteName: riscos_skill1_z
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 828c401a35eb7d448a7a0cd3ebe1df4e
+    layerID: 41
+    mosaicPosition: {x: 1740, y: 1388}
+  - name: HABILIDADE 2
+    spriteName: HABILIDADE 2_1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: d10a8d92b2698ef45b1a1b6d8320d2f9
+    layerID: 85
+    mosaicPosition: {x: 1740, y: 1516}
+  - name: riscos_skill2_e
+    spriteName: riscos_skill2_e
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 39690d1bba8f18d45ac2d51399abf7fa
+    layerID: 37
+    mosaicPosition: {x: 949, y: 1388}
+  - name: HABILIDADE 1
+    spriteName: HABILIDADE 1_1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: b45c87a52b8716643b69252de1e4355b
+    layerID: 87
+    mosaicPosition: {x: 1541, y: 1092}
+  - name: riscos_skill_q
+    spriteName: riscos_skill_q
+    isGroup: 0
+    parentIndex: 17
+    spriteID: ab4f2deed15199548b7b4ccea844cab7
+    layerID: 32
+    mosaicPosition: {x: 1443, y: 1388}
+  - name: Camada 1
+    spriteName: Camada 1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 6af882fb8013ba748b805f07a3d1e07a
+    layerID: 92
+    mosaicPosition: {x: 1783, y: 1609}
+  - name: risco_attack_shift
+    spriteName: risco_attack_shift
+    isGroup: 0
+    parentIndex: 17
+    spriteID: a83a3e1cb9c26a44794806964ccb286c
+    layerID: 30
+    mosaicPosition: {x: 912, y: 1201}
+  - name: PULAR
+    spriteName: PULAR_1
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 62a0ce4ba702b0148b93ed0fb735189f
+    layerID: 90
+    mosaicPosition: {x: 1856, y: 1128}
+  - name: riscos_jump_space
+    spriteName: riscos_jump_space
+    isGroup: 0
+    parentIndex: 17
+    spriteID: eb5bbb661b936eb4eb1ff9cc2acd4885
+    layerID: 26
+    mosaicPosition: {x: 315, y: 1924}
+  - name: PULAR
+    spriteName: PULAR_2
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 769aa8bac861f9e44b3a1e3bca3acf94
+    layerID: 89
+    mosaicPosition: {x: 912, y: 1165}
+  - name: riscos_jump_w
+    spriteName: riscos_jump_w
+    isGroup: 0
+    parentIndex: 17
+    spriteID: c018231ede6a81c4193de245dca3a5a3
+    layerID: 23
+    mosaicPosition: {x: 315, y: 1747}
+  - name: PULAR
+    spriteName: PULAR_3
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 93f11a97c4ff3a84e88593055e92fe9b
+    layerID: 88
+    mosaicPosition: {x: 1057, y: 1165}
+  - name: risco_set_cima
+    spriteName: risco_set_cima
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 143631e88fe4a6a47b5017fa8e551964
+    layerID: 18
+    mosaicPosition: {x: 1202, y: 1178}
+  - name: MOVER
+    spriteName: MOVER_2
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 76e7bc90fbe585746a114c033c92ee15
+    layerID: 94
+    mosaicPosition: {x: 1400, y: 1128}
+  - name: risco_setas
+    spriteName: risco_setas
+    isGroup: 0
+    parentIndex: 17
+    spriteID: b88fa313b3276f64592c36bf90073167
+    layerID: 12
+    mosaicPosition: {x: 4, y: 1954}
+  - name: teclado
+    spriteName: teclado
+    isGroup: 0
+    parentIndex: 17
+    spriteID: d0ce3594e37373447b25706db41dd9b9
+    layerID: 4
+    mosaicPosition: {x: 4, y: 1092}
+  - name: fundo
+    spriteName: fundo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6ea665317fe1d0c49bf6f249ebb9815d
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: config_menu Texture
+  prefabAssetName: config_menu Prefab
+  spriteLibAssetName: config_menu Sprite Lib
+  secondarySpriteTextures: []
