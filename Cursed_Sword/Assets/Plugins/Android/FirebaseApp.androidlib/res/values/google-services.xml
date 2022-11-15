@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://cursed-sword-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">778155130775</string>
+  <string name="google_storage_bucket" translatable="false">cursed-sword.appspot.com</string>
+  <string name="project_id" translatable="false">cursed-sword</string>
+  <string name="google_api_key" translatable="false">AIzaSyDxgvlA9wFZ-IgS9YEN6EoDiWLEZeMRjPg</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDxgvlA9wFZ-IgS9YEN6EoDiWLEZeMRjPg</string>
+  <string name="google_app_id" translatable="false">1:778155130775:android:6d2692b28c86cbcff5ced2</string>
+  <string name="default_web_client_id" translatable="false">778155130775-9pqpodafkg3503if7bg3ti6lpeifapve.apps.googleusercontent.com</string>
+</resources>
