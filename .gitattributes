@@ -7,3 +7,4 @@ mp4 filter=lfs diff=lfs merge=lfs -text
 .bundle filter=lfs diff=lfs merge=lfs -text
 .BUNDLE filter=lfs diff=lfs merge=lfs -text
 [filepath] filter=lfs diff=lfs merge=lfs -text
+*.bundle filter=lfs diff=lfs merge=lfs -text
