@@ -21,6 +21,7 @@ TagManager:
   - Transition2
   - Training
   - TrainingSkill
+  - Rank
   layers:
   - Default
   - TransparentFX

@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -103,28 +103,43 @@ ScriptedImporter:
       width: 1554
       height: 510
     spriteID: 8eb0331ef4e47084d99a089c03dff4bf
-    internalID: 0
     spriteBone:
     - name: Folded_4
+      guid: 
       position: {x: 563.68414, y: -0.00021969974, z: 0}
       rotation: {x: 0, y: 0, z: 0.211946, w: 0.9772814}
       length: 843.1725
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Folded_3
+      guid: 
       position: {x: 253.8977, y: -0.000004050512, z: 0}
       rotation: {x: 0, y: 0, z: 0.44543046, w: 0.8953166}
       length: 563.68414
       parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Folded_2
+      guid: 
       position: {x: 202.91797, y: -0.000010388394, z: 0}
       rotation: {x: 0, y: 0, z: 0.7292929, w: 0.6842016}
       length: 253.89766
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Folded_1
+      guid: 
       position: {x: 220.83838, y: 488.69092, z: 0}
       rotation: {x: 0, y: 0, z: -0.9846631, w: 0.17446642}
       length: 202.91798
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 1068, y: 1.9600067}
@@ -973,28 +988,43 @@ ScriptedImporter:
       width: 2172
       height: 107
     spriteID: 68754a1e7bfc43e4690cd70e24cfc503
-    internalID: 0
     spriteBone:
     - name: Straight_4
+      guid: 
       position: {x: 576.41766, y: 0.0002497201, z: 0}
       rotation: {x: 0, y: 0, z: 0.0026910899, w: 0.99999636}
       length: 432.28198
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Straight_3
+      guid: 
       position: {x: 539.1591, y: 0.00003437786, z: 0}
       rotation: {x: 0, y: 0, z: -0.008069575, w: 0.99996746}
       length: 576.41766
       parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Straight_2
+      guid: 
       position: {x: 553.1224, y: -0.000014764173, z: 0}
       rotation: {x: 0, y: 0, z: -0.0041968054, w: 0.9999912}
       length: 539.1593
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Straight_1
+      guid: 
       position: {x: 2127.783, y: 46.847412, z: 0}
       rotation: {x: 0, y: 0, z: -0.9999912, w: 0.0042002834}
       length: 553.1223
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 378.47192, y: 0.47200012}
@@ -1756,6 +1786,109 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1547, y: -1369}
+  characterData:
+    bones:
+    - name: Straight_1
+      guid: 
+      position: {x: 2146.783, y: 1419.8474, z: 0}
+      rotation: {x: 0, y: 0, z: -0.9999912, w: 0.0042002834}
+      length: 553.1223
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
+    - name: Straight_2
+      guid: 
+      position: {x: 553.1222, y: 0.0000127955245, z: 0}
+      rotation: {x: 0, y: 0, z: -0.0041968054, w: 0.9999912}
+      length: 539.1593
+      parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
+    - name: Straight_3
+      guid: 
+      position: {x: 539.15936, y: 0.000011349265, z: 0}
+      rotation: {x: 0, y: 0, z: -0.008069577, w: 0.99996746}
+      length: 576.41766
+      parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
+    - name: Straight_4
+      guid: 
+      position: {x: 576.41766, y: 0.0001845622, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0026910908, w: 0.99999636}
+      length: 432.28195
+      parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 0
+    - name: Folded_1
+      guid: 
+      position: {x: 231.83838, y: 1210.6909, z: 0}
+      rotation: {x: 0, y: 0, z: -0.9846631, w: 0.17446642}
+      length: 202.91798
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
+    - name: Folded_2
+      guid: 
+      position: {x: 202.91792, y: 0.0000033539136, z: 0}
+      rotation: {x: 0, y: -0, z: 0.7292929, w: 0.6842016}
+      length: 253.89766
+      parentId: 4
+      color:
+        serializedVersion: 2
+        rgba: 0
+    - name: Folded_3
+      guid: 
+      position: {x: 253.8977, y: -0.000041796626, z: 0}
+      rotation: {x: 0, y: 0, z: 0.44543043, w: 0.8953166}
+      length: 563.684
+      parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 0
+    - name: Folded_4
+      guid: 
+      position: {x: 563.68396, y: -0.0001155045, z: 0}
+      rotation: {x: 0, y: 0, z: 0.21194601, w: 0.97728145}
+      length: 843.1724
+      parentId: 6
+      color:
+        serializedVersion: 2
+        rgba: 0
+    parts:
+    - spritePosition:
+        x: 11
+        y: 722
+        width: 1554
+        height: 510
+      spriteId: 8eb0331ef4e47084d99a089c03dff4bf
+      bones: 07000000060000000500000004000000
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 19
+        y: 1373
+        width: 2172
+        height: 107
+      spriteId: 68754a1e7bfc43e4690cd70e24cfc503
+      bones: 03000000020000000100000000000000
+      parentGroup: 0
+      order: 0
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -1824,21 +1957,19 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   mosaicLayers: 1
+  characterMode: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
-  importedTextureHeight: 2048
-  documentSize: {x: 2202, y: 2202}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 4096
-  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
-  characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Vine_F
@@ -1848,6 +1979,9 @@ ScriptedImporter:
     spriteID: 8eb0331ef4e47084d99a089c03dff4bf
     layerID: 3
     mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Vine_N
     spriteName: Vine_N
     isGroup: 0
@@ -1855,71 +1989,14 @@ ScriptedImporter:
     spriteID: 68754a1e7bfc43e4690cd70e24cfc503
     layerID: 2
     mosaicPosition: {x: 1566, y: 4}
-  characterData:
-    bones:
-    - name: Straight_1
-      position: {x: 2146.783, y: 1419.8474, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9999912, w: 0.0042002834}
-      length: 553.1223
-      parentId: -1
-    - name: Straight_2
-      position: {x: 553.1222, y: 0.0000127955245, z: 0}
-      rotation: {x: 0, y: 0, z: -0.0041968054, w: 0.9999912}
-      length: 539.1593
-      parentId: 0
-    - name: Straight_3
-      position: {x: 539.15936, y: 0.000011349265, z: 0}
-      rotation: {x: 0, y: 0, z: -0.008069577, w: 0.99996746}
-      length: 576.41766
-      parentId: 1
-    - name: Straight_4
-      position: {x: 576.41766, y: 0.0001845622, z: 0}
-      rotation: {x: 0, y: 0, z: 0.0026910908, w: 0.99999636}
-      length: 432.28195
-      parentId: 2
-    - name: Folded_1
-      position: {x: 231.83838, y: 1210.6909, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9846631, w: 0.17446642}
-      length: 202.91798
-      parentId: -1
-    - name: Folded_2
-      position: {x: 202.91792, y: 0.0000033539136, z: 0}
-      rotation: {x: 0, y: -0, z: 0.7292929, w: 0.6842016}
-      length: 253.89766
-      parentId: 4
-    - name: Folded_3
-      position: {x: 253.8977, y: -0.000041796626, z: 0}
-      rotation: {x: 0, y: 0, z: 0.44543043, w: 0.8953166}
-      length: 563.684
-      parentId: 5
-    - name: Folded_4
-      position: {x: 563.68396, y: -0.0001155045, z: 0}
-      rotation: {x: 0, y: 0, z: 0.21194601, w: 0.97728145}
-      length: 843.1724
-      parentId: 6
-    parts:
-    - spritePosition:
-        x: 11
-        y: 722
-        width: 1554
-        height: 510
-      spriteId: 8eb0331ef4e47084d99a089c03dff4bf
-      bones: 07000000060000000500000004000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 19
-        y: 1373
-        width: 2172
-        height: 107
-      spriteId: 68754a1e7bfc43e4690cd70e24cfc503
-      bones: 03000000020000000100000000000000
-      parentGroup: 0
-      order: 0
-    dimension: {x: 0, y: 0}
-    characterGroups: []
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: Vines Texture
   prefabAssetName: Vines Prefab
   spriteLibAssetName: Vines Sprite Lib
+  skeletonAssetName: 
   secondarySpriteTextures: []

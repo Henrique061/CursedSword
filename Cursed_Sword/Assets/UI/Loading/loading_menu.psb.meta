@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -91,19 +91,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: quadro_text
+  - name: Forma 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2866
-      y: 1530
-      width: 1205
-      height: 189
-    spriteID: e71e3d5e9872272429694855df7380c9
-    internalID: 0
+      x: 1204
+      y: 1863
+      width: 114
+      height: 65
+    spriteID: 60d9df42c5b27a14496b765b9999ed6e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -112,8 +111,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2511, y: 1260}
-  - name: fundo_texto
+    uvTransform: {x: -284, y: 1663}
+  - name: Elipse 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1326
+      y: 1863
+      width: 57
+      height: 57
+    spriteID: 0a0321e7e6f26c042a569aa32bb2cb96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 580, y: 1663}
+  - name: quadro_text
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -122,10 +142,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 1932
       y: 795
-      width: 1192
-      height: 177
-    spriteID: de9b0ac1b56b8524db5553614cad5404
-    internalID: 0
+      width: 1205
+      height: 189
+    spriteID: e71e3d5e9872272429694855df7380c9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -134,7 +153,28 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1571, y: 519}
+    uvTransform: {x: 1577, y: 525}
+  - name: fundo_texto
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1863
+      width: 1192
+      height: 177
+    spriteID: de9b0ac1b56b8524db5553614cad5404
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -357, y: 1587}
   - name: quadro_print
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -147,7 +187,6 @@ ScriptedImporter:
       width: 765
       height: 430
     spriteID: 1fe4a6548145c8549acbdd5cd7f8b801
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -164,12 +203,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1863
+      x: 2866
+      y: 1530
       width: 765
       height: 430
     spriteID: df8bc2681458c9141881ed5b336921df
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -178,7 +216,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -570, y: 1375}
+    uvTransform: {x: 2292, y: 1042}
   - name: quadro
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -191,7 +229,6 @@ ScriptedImporter:
       width: 1438
       height: 783
     spriteID: 97cd2dc7f1a32e9408aa4dd8523f00c2
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -213,7 +250,6 @@ ScriptedImporter:
       width: 1423
       height: 763
     spriteID: 2dddd6bcac464424d94e2f17e98f813f
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -235,7 +271,6 @@ ScriptedImporter:
       width: 1423
       height: 763
     spriteID: ec1add883b8b9834da8f2813f430bf0e
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -257,7 +292,6 @@ ScriptedImporter:
       width: 1920
       height: 1080
     spriteID: 416008ccee3f4d645b64a1220f47b26e
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -267,67 +301,34 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: Forma 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 3639
-      y: 1092
-      width: 114
-      height: 65
-    spriteID: 60d9df42c5b27a14496b765b9999ed6e
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 2151, y: 892}
-  - name: Elipse 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 3761
-      y: 1092
-      width: 57
-      height: 57
-    spriteID: 0a0321e7e6f26c042a569aa32bb2cb96
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 3015, y: 892}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
   platformSettings: []
   mosaicLayers: 1
+  characterMode: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
-  importedTextureHeight: 2048
-  documentSize: {x: 1920, y: 1080}
+  layerMappingOption: 2
+  generatePhysicsShape: 0
   paperDollMode: 0
   keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
   spriteCategoryList:
     categories: []
-  textureActualWidth: 4096
-  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
-  characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Forma 1
@@ -336,49 +337,70 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 60d9df42c5b27a14496b765b9999ed6e
     layerID: 39
-    mosaicPosition: {x: 3639, y: 1092}
+    mosaicPosition: {x: 1204, y: 1863}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Elipse 1
     spriteName: Elipse 1
     isGroup: 0
     parentIndex: -1
     spriteID: 0a0321e7e6f26c042a569aa32bb2cb96
     layerID: 32
-    mosaicPosition: {x: 3761, y: 1092}
+    mosaicPosition: {x: 1326, y: 1863}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: quadro
     spriteName: 
     isGroup: 1
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
+    spriteID: 8e1b58740b290c04591cf05e79aeb040
     layerID: 9
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: text_area
     spriteName: 
     isGroup: 1
     parentIndex: 2
-    spriteID: 00000000000000000000000000000000
+    spriteID: 9fef734c6b95d11448661132401e0fef
     layerID: 25
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: quadro_text
     spriteName: quadro_text
     isGroup: 0
     parentIndex: 3
     spriteID: e71e3d5e9872272429694855df7380c9
     layerID: 27
-    mosaicPosition: {x: 2866, y: 1530}
+    mosaicPosition: {x: 1932, y: 795}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: fundo_texto
     spriteName: fundo_texto
     isGroup: 0
     parentIndex: 3
     spriteID: de9b0ac1b56b8524db5553614cad5404
     layerID: 29
-    mosaicPosition: {x: 1932, y: 795}
+    mosaicPosition: {x: 4, y: 1863}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: print_area
     spriteName: 
     isGroup: 1
     parentIndex: 2
-    spriteID: 00000000000000000000000000000000
+    spriteID: 573c03310df641a42b66286e7f97fcff
     layerID: 22
     mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
   - name: quadro_print
     spriteName: quadro_print
     isGroup: 0
@@ -386,13 +408,19 @@ ScriptedImporter:
     spriteID: 1fe4a6548145c8549acbdd5cd7f8b801
     layerID: 17
     mosaicPosition: {x: 2866, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: print_area
     spriteName: print_area
     isGroup: 0
     parentIndex: 6
     spriteID: df8bc2681458c9141881ed5b336921df
     layerID: 14
-    mosaicPosition: {x: 4, y: 1863}
+    mosaicPosition: {x: 2866, y: 1530}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: quadro
     spriteName: quadro
     isGroup: 0
@@ -400,6 +428,9 @@ ScriptedImporter:
     spriteID: 97cd2dc7f1a32e9408aa4dd8523f00c2
     layerID: 6
     mosaicPosition: {x: 1932, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: fundo_quadro
     spriteName: fundo_quadro
     isGroup: 0
@@ -407,6 +438,9 @@ ScriptedImporter:
     spriteID: 2dddd6bcac464424d94e2f17e98f813f
     layerID: 7
     mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: fundo_do_fundo
     spriteName: fundo_do_fundo
     isGroup: 0
@@ -414,6 +448,9 @@ ScriptedImporter:
     spriteID: ec1add883b8b9834da8f2813f430bf0e
     layerID: 8
     mosaicPosition: {x: 1435, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Plano de Fundo
     spriteName: Plano de Fundo
     isGroup: 0
@@ -421,13 +458,14 @@ ScriptedImporter:
     spriteID: 416008ccee3f4d645b64a1220f47b26e
     layerID: 1
     mosaicPosition: {x: 4, y: 4}
-  characterData:
-    bones: []
-    parts: []
-    dimension: {x: 0, y: 0}
-    characterGroups: []
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: loading_menu Texture
   prefabAssetName: loading_menu Prefab
   spriteLibAssetName: loading_menu Sprite Lib
+  skeletonAssetName: 
   secondarySpriteTextures: []

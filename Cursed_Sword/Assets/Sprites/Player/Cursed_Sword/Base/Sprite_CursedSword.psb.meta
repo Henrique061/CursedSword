@@ -25,6 +25,7 @@ ScriptedImporter:
     streamingMipmaps: 1
     streamingMipmapsPriority: 0
     vTOnly: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -79,7 +80,6 @@ ScriptedImporter:
       width: 0
       height: 0
     spriteID: 
-    internalID: 0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -103,43 +103,70 @@ ScriptedImporter:
       width: 92
       height: 42
     spriteID: 57a5f428b375c984b851fd06befc209e
-    internalID: 0
     spriteBone:
     - name: Olho_Esq_3
+      guid: 
       position: {x: 10.988398, y: -0.00001867312, z: 0}
       rotation: {x: 0, y: 0, z: -0.050437756, w: 0.99872726}
       length: 12.593272
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Esq_2
+      guid: 
       position: {x: 10.954457, y: -0.0000059689482, z: 0}
       rotation: {x: 0, y: 0, z: 0.081967644, w: 0.996635}
       length: 10.988113
       parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Esq_1
+      guid: 
       position: {x: 329.25684, y: -7.986131, z: 0}
       rotation: {x: 0, y: 0, z: -0.5040036, w: 0.8637016}
       length: 10.954528
       parentId: 6
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_3
+      guid: 
       position: {x: 9.87882, y: 0.00013132852, z: 0}
       rotation: {x: 0, y: 0, z: -0.04155275, w: 0.9991364}
       length: 8.496851
       parentId: 4
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_2
+      guid: 
       position: {x: 10.678529, y: 0.00014406086, z: 0}
       rotation: {x: 0, y: 0, z: 0.066218175, w: 0.9978052}
       length: 9.878732
       parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_1
+      guid: 
       position: {x: 329.05557, y: 20.458204, z: 0}
       rotation: {x: 0, y: 0, z: 0.31569895, w: 0.94885945}
       length: 10.678296
       parentId: 6
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo
+      guid: 
       position: {x: 38.410583, y: 359.70776, z: 0}
       rotation: {x: 0, y: 0, z: -0.7033972, w: 0.710797}
       length: 426.14307
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 18.907013, y: 4.410034}
@@ -679,33 +706,52 @@ ScriptedImporter:
       width: 95
       height: 52
     spriteID: 09ce502958422f44f865e7d91d304f3c
-    internalID: 0
     spriteBone:
     - name: Cabo
+      guid: 
       position: {x: 43.410583, y: 400.70776, z: 0}
       rotation: {x: 0, y: 0, z: -0.7033972, w: 0.710797}
       length: 426.14307
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo_6
+      guid: 
       position: {x: 380.1553, y: 9.107064, z: 0}
       rotation: {x: 0, y: 0, z: 0.8204263, w: 0.5717524}
       length: 17.156502
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo_7
+      guid: 
       position: {x: 17.156517, y: -0.000045169378, z: 0}
       rotation: {x: 0, y: 0, z: 0.061887145, w: 0.99808323}
       length: 21.17454
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo_4
+      guid: 
       position: {x: 379.21616, y: -7.6799846, z: 0}
       rotation: {x: 0, y: 0, z: -0.8487828, w: 0.5287417}
       length: 19.464186
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo_5
+      guid: 
       position: {x: 19.464083, y: 0.0002138419, z: 0}
       rotation: {x: 0, y: 0, z: -0.14784539, w: 0.9890105}
       length: 25.39559
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 61.908997, y: 0.39001465}
@@ -1121,13 +1167,16 @@ ScriptedImporter:
       width: 237
       height: 213
     spriteID: 5ee283512297ddd46a851b962cd91576
-    internalID: 0
     spriteBone:
     - name: Cabo
+      guid: 
       position: {x: 125.41058, y: 463.70776, z: 0}
       rotation: {x: 0, y: 0, z: -0.7033972, w: 0.710797}
       length: 426.14307
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 130.29199, y: 13.292969}
@@ -1608,23 +1657,34 @@ ScriptedImporter:
       width: 105
       height: 812
     spriteID: ecb82e0a309b8cd41a1adbad6fbb0816
-    internalID: 0
     spriteBone:
     - name: Lamina
+      guid: 
       position: {x: 60.720642, y: 752.1844, z: 0}
       rotation: {x: 0, y: 0, z: -0.7111082, w: 0.7030827}
       length: 737.27545
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Lamina_Dir
+      guid: 
       position: {x: -7.4990892, y: 10.543139, z: 0}
       rotation: {x: 0, y: 0, z: 0.9758863, w: 0.21827987}
       length: 46.897213
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Lamina_Esq
+      guid: 
       position: {x: -6.620252, y: -10.547666, z: 0}
       rotation: {x: 0, y: 0, z: -0.9452032, w: 0.32648268}
       length: 62.0228
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 52.951332, y: 3.3414104}
@@ -2565,33 +2625,52 @@ ScriptedImporter:
       width: 342
       height: 1242
     spriteID: 9030b28b9a4eacb49a086ff91abe0dea
-    internalID: 0
     spriteBone:
     - name: Cabo
+      guid: 
       position: {x: 195.41058, y: 1227.7078, z: 0}
       rotation: {x: 0, y: 0, z: -0.7033972, w: 0.710797}
       length: 426.14307
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Dir_1
+      guid: 
       position: {x: 281.93262, y: 6.6125693, z: 0}
       rotation: {x: 0, y: 0, z: 0.7771252, w: 0.6293461}
       length: 57.03283
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Dir_2
+      guid: 
       position: {x: 57.0328, y: -0.000068132045, z: 0}
       rotation: {x: 0, y: 0, z: -0.07762897, w: 0.99698234}
       length: 73.59804
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Esq_1
+      guid: 
       position: {x: 281.3048, y: -11.49379, z: 0}
       rotation: {x: 0, y: 0, z: -0.7710166, w: 0.63681513}
       length: 78.54342
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Esq_2
+      guid: 
       position: {x: 78.54337, y: 0.000105362735, z: 0}
       rotation: {x: 0, y: 0, z: 0.04983137, w: 0.9987577}
       length: 94.06198
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 220.70755, y: 906.8288}
@@ -3403,63 +3482,106 @@ ScriptedImporter:
       width: 231
       height: 208
     spriteID: a70f2efe10ccb204ba3641a104b9576c
-    internalID: 0
     spriteBone:
     - name: Lamina
+      guid: 
       position: {x: 437.55484, y: 0.73120135, z: 0}
       rotation: {x: 0, y: 0, z: -0.01090719, w: 0.9999406}
       length: 737.2756
       parentId: 10
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Lamina_Dir
+      guid: 
       position: {x: -7.4989414, y: 10.543133, z: 0}
       rotation: {x: 0, y: 0, z: 0.9758862, w: 0.21827988}
       length: 46.89722
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_3
+      guid: 
       position: {x: 9.878899, y: 0.0002326033, z: 0}
       rotation: {x: 0, y: 0, z: -0.04155275, w: 0.9991364}
       length: 8.496851
       parentId: 4
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Dir_1
+      guid: 
       position: {x: 281.93246, y: 6.6125712, z: 0}
       rotation: {x: 0, y: 0, z: 0.7771252, w: 0.6293461}
       length: 57.03283
       parentId: 10
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_2
+      guid: 
       position: {x: 10.678508, y: -0.00003349177, z: 0}
       rotation: {x: 0, y: 0, z: 0.066218175, w: 0.9978052}
       length: 9.878732
       parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_1
+      guid: 
       position: {x: 329.0554, y: 20.458212, z: 0}
       rotation: {x: 0, y: 0, z: 0.31569895, w: 0.94885945}
       length: 10.678296
       parentId: 10
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Esq_1
+      guid: 
       position: {x: 281.3046, y: -11.493794, z: 0}
       rotation: {x: 0, y: 0, z: -0.77101654, w: 0.63681513}
       length: 78.54342
       parentId: 10
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Esq_3
+      guid: 
       position: {x: 10.988121, y: -0.00012945393, z: 0}
       rotation: {x: 0, y: 0, z: -0.050437763, w: 0.99872726}
       length: 12.59327
       parentId: 8
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Esq_2
+      guid: 
       position: {x: 108.3902, y: 125.89673, z: 0}
       rotation: {x: 0, y: 0, z: -0.9412572, w: 0.33769077}
       length: 10.988113
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Lamina_Esq
+      guid: 
       position: {x: -6.6201077, y: -10.547675, z: 0}
       rotation: {x: 0, y: 0, z: -0.94520324, w: 0.3264827}
       length: 62.022785
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo
+      guid: 
       position: {x: 122.41058, y: 460.70776, z: 0}
       rotation: {x: 0, y: 0, z: -0.7033972, w: 0.710797}
       length: 426.14307
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 128.119, y: 21.698975}
@@ -3896,23 +4018,34 @@ ScriptedImporter:
       width: 28
       height: 19
     spriteID: 3ae61bfb1c0dedb428246dc66c51abc8
-    internalID: 0
     spriteBone:
     - name: Olho_Esq_1
+      guid: 
       position: {x: 329.2566, y: -7.986114, z: 0}
       rotation: {x: 0, y: 0, z: -0.5040036, w: 0.8637016}
       length: 10.954528
       parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Esq_1
+      guid: 
       position: {x: 281.30457, y: -11.493778, z: 0}
       rotation: {x: 0, y: 0, z: -0.77101654, w: 0.63681513}
       length: 78.54342
       parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo
+      guid: 
       position: {x: 46.410583, y: 321.70776, z: 0}
       rotation: {x: 0, y: 0, z: -0.7033972, w: 0.710797}
       length: 426.14307
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 19.812988, y: 2.19104}
@@ -4138,166 +4271,170 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -471, y: 452}
-  platformSettings: []
-  mosaicLayers: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  importedTextureWidth: 1024
-  importedTextureHeight: 2048
-  documentSize: {x: 1426, y: 1426}
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  spriteCategoryList:
-    categories: []
-  textureActualWidth: 1024
-  textureActualHeight: 2048
-  spritePackingTag: 
-  resliceFromLayer: 0
-  characterMode: 1
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Eyes
-    spriteName: Eyes
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 57a5f428b375c984b851fd06befc209e
-    layerID: 17
-    mosaicPosition: {x: 249, y: 1314}
-  - name: Mouth_Smile
-    spriteName: Mouth_Smile
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 09ce502958422f44f865e7d91d304f3c
-    layerID: 16
-    mosaicPosition: {x: 249, y: 1254}
-  - name: Energy_F_Neutra
-    spriteName: Energy_F_Neutra
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 5ee283512297ddd46a851b962cd91576
-    layerID: 70
-    mosaicPosition: {x: 4, y: 1254}
-  - name: Blade_R
-    spriteName: Blade_R
-    isGroup: 0
-    parentIndex: -1
-    spriteID: ecb82e0a309b8cd41a1adbad6fbb0816
-    layerID: 58
-    mosaicPosition: {x: 354, y: 4}
-  - name: Hat
-    spriteName: Hat
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 9030b28b9a4eacb49a086ff91abe0dea
-    layerID: 76
-    mosaicPosition: {x: 4, y: 4}
-  - name: Energy_B_Neutral
-    spriteName: Energy_B_Neutral
-    isGroup: 0
-    parentIndex: -1
-    spriteID: a70f2efe10ccb204ba3641a104b9576c
-    layerID: 79
-    mosaicPosition: {x: 4, y: 1475}
-  - name: Hat_B
-    spriteName: Hat_B
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3ae61bfb1c0dedb428246dc66c51abc8
-    layerID: 24
-    mosaicPosition: {x: 249, y: 1364}
   characterData:
     bones:
     - name: Cabo
+      guid: 
       position: {x: 766.4106, y: 1233.7078, z: 0}
       rotation: {x: 0, y: 0, z: -0.7033972, w: 0.710797}
       length: 426.14304
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Esq_1
+      guid: 
       position: {x: 281.30487, y: -11.493806, z: 0}
       rotation: {x: 0, y: -0, z: -0.77101654, w: 0.63681513}
       length: 78.54342
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Esq_2
+      guid: 
       position: {x: 78.54338, y: -0.00002506634, z: 0}
       rotation: {x: 0, y: 0, z: 0.04983133, w: 0.99875766}
       length: 94.062004
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Dir_1
+      guid: 
       position: {x: 281.93262, y: 6.6125536, z: 0}
       rotation: {x: 0, y: -0, z: 0.7771252, w: 0.6293461}
       length: 57.032833
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Guarda_Dir_2
+      guid: 
       position: {x: 57.03284, y: -0.000019896983, z: 0}
       rotation: {x: 0, y: 0, z: -0.07762897, w: 0.99698234}
       length: 73.598045
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Lamina
+      guid: 
       position: {x: 437.555, y: 0.7311837, z: 0}
       rotation: {x: 0, y: 0, z: -0.01090719, w: 0.9999406}
       length: 737.2756
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Lamina_Esq
+      guid: 
       position: {x: -6.6202197, y: -10.547687, z: 0}
       rotation: {x: 0, y: -0, z: -0.9452032, w: 0.32648265}
       length: 62.022808
       parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Lamina_Dir
+      guid: 
       position: {x: -7.4990563, y: 10.543119, z: 0}
       rotation: {x: 0, y: -0, z: 0.9758862, w: 0.21827987}
       length: 46.89722
       parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Esq_1
+      guid: 
       position: {x: 329.2568, y: -7.9861403, z: 0}
       rotation: {x: 0, y: 0, z: -0.5040036, w: 0.8637016}
       length: 10.95453
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Esq_2
+      guid: 
       position: {x: 10.954547, y: -0.000003839945, z: 0}
       rotation: {x: 0, y: 0, z: 0.081967644, w: 0.996635}
       length: 10.988114
       parentId: 8
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Esq_3
+      guid: 
       position: {x: 10.988209, y: -0.000012489418, z: 0}
       rotation: {x: 0, y: 0, z: -0.050437745, w: 0.9987272}
       length: 12.593272
       parentId: 9
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_1
+      guid: 
       position: {x: 329.05566, y: 20.458193, z: 0}
       rotation: {x: 0, y: 0, z: 0.31569895, w: 0.94885945}
       length: 10.678297
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_2
+      guid: 
       position: {x: 10.678353, y: 0.000036680198, z: 0}
       rotation: {x: 0, y: 0, z: 0.06621817, w: 0.9978052}
       length: 9.878734
       parentId: 11
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Olho_Dir_3
+      guid: 
       position: {x: 9.878721, y: 0.00003344848, z: 0}
       rotation: {x: 0, y: 0, z: -0.04155274, w: 0.9991364}
       length: 8.49685
       parentId: 12
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo_4
+      guid: 
       position: {x: 379.21622, y: -7.680017, z: 0}
       rotation: {x: 0, y: -0, z: -0.8487828, w: 0.5287417}
       length: 19.464186
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo_5
+      guid: 
       position: {x: 19.464155, y: 0.00007081586, z: 0}
       rotation: {x: 0, y: 0, z: -0.14784539, w: 0.9890106}
       length: 25.39559
       parentId: 14
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo_6
+      guid: 
       position: {x: 380.15546, y: 9.107032, z: 0}
       rotation: {x: 0, y: -0, z: 0.8204263, w: 0.5717524}
       length: 17.156502
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cabo_7
+      guid: 
       position: {x: 17.156475, y: -0.000009222684, z: 0}
       rotation: {x: 0, y: 0, z: 0.061887134, w: 0.99808323}
       length: 21.174538
       parentId: 16
+      color:
+        serializedVersion: 2
+        rgba: 0
     parts:
     - spritePosition:
         x: 728
@@ -4364,8 +4501,196 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Eyes
+    spriteName: Eyes
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 57a5f428b375c984b851fd06befc209e
+    layerID: 17
+    mosaicPosition: {x: 249, y: 1314}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Mouth_Open
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 64
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Mouth_Smirk
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 61
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Mouth_Unhappy
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 59
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Mouth_Smile
+    spriteName: Mouth_Smile
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 09ce502958422f44f865e7d91d304f3c
+    layerID: 16
+    mosaicPosition: {x: 249, y: 1254}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Energy_F_Explode
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 81
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Energy_F_Neutra
+    spriteName: Energy_F_Neutra
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5ee283512297ddd46a851b962cd91576
+    layerID: 70
+    mosaicPosition: {x: 4, y: 1254}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Life_3
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 28
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Life_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 27
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Life_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 26
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Blade_R
+    spriteName: Blade_R
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ecb82e0a309b8cd41a1adbad6fbb0816
+    layerID: 58
+    mosaicPosition: {x: 354, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Blade_L
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 77
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Hat
+    spriteName: Hat
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9030b28b9a4eacb49a086ff91abe0dea
+    layerID: 76
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Energy_B_Explode
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 78
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Energy_B_Neutral
+    spriteName: Energy_B_Neutral
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a70f2efe10ccb204ba3641a104b9576c
+    layerID: 79
+    mosaicPosition: {x: 4, y: 1475}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Hat_B
+    spriteName: Hat_B
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3ae61bfb1c0dedb428246dc66c51abc8
+    layerID: 24
+    mosaicPosition: {x: 249, y: 1364}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
   generateGOHierarchy: 0
   textureAssetName: Sprite_CursedSword Texture
   prefabAssetName: Sprite_CursedSword Prefab
   spriteLibAssetName: Sprite_CursedSword Sprite Lib
+  skeletonAssetName: 
   secondarySpriteTextures: []
