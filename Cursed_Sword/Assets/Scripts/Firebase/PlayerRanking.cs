@@ -10,6 +10,12 @@ public class PlayerRanking : MonoBehaviour
     [HideInInspector] public string playerName;
 
     [HideInInspector] public bool isPlaying = true;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     private void Update()
     {
         if (isPlaying)
