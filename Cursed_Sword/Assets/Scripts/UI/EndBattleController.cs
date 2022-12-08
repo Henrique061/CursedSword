@@ -43,6 +43,8 @@ public class EndBattleController : MonoBehaviour
             {
                 if (!ending)
                 {
+                    scoreManager.GetComponent<PlayerRanking>().NotPlaying();
+
                     cc.canAttack = false;
                     cc.canJump = false;
                     cm.canWalk = false;
