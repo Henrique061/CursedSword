@@ -16,6 +16,7 @@ public class EndBattleController : MonoBehaviour
 
     [Header("GameObjects")]
     [SerializeField] private GameObject mainObj;
+    [SerializeField] private GameObject scoreManager;
 
     private float timer = 0.1f;
 
@@ -66,11 +67,18 @@ public class EndBattleController : MonoBehaviour
                 PauseController.canPause = true;
                 PauseController.gamePaused = false;
                 Time.timeScale = 1;
-                SceneManager.LoadScene("Main_Menu");
+                DontDestroyOnLoad(scoreManager);
+                SceneManager.LoadScene("Ranking");
             }
 
             else
                 timer -= Time.unscaledDeltaTime;
         }
     }
+
+    /*public void ToRank() 
+    {
+        SceneManager.LoadScene("Ranking");
+        Time.timeScale = 1;
+    }*/
 }

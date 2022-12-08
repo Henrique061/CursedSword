@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerRanking : MonoBehaviour
 {
@@ -11,10 +12,11 @@ public class PlayerRanking : MonoBehaviour
 
     [HideInInspector] public bool isPlaying = true;
 
-    private void Awake()
+    /*private void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
-    }
+        if(SceneManager.GetActiveScene().Equals("Gaia_Room"))
+            DontDestroyOnLoad(this.gameObject);
+    }*/
 
     private void Update()
     {
