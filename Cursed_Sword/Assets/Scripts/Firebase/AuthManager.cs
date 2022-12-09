@@ -114,20 +114,20 @@ public class AuthManager : MonoBehaviour
         // usado para controlar o retorno
         finalResult = "";
         // configuracao do google solicitando o token e passando o webclientid
-        GoogleSignIn.Configuration = new GoogleSignInConfiguration
+        /*GoogleSignIn.Configuration = new GoogleSignInConfiguration
         {
             RequestIdToken = true,
             // esse valor de baixo esta no arquivo google-services.json
             // na parte oauth_client identificado como client_id (junto do client_type 3)
             WebClientId = "690657509872-3gt52jnt961qv1pn3h9iaq58r6p4frc0.apps.googleusercontent.com"
-        };
+        };*/
         // variavel do tipo Task<GoogleSignInUser> que e responsavel
         // pelo login com as configuracoes acima
-        var signIn = GoogleSignIn.DefaultInstance.SignIn();
+        //var signIn = GoogleSignIn.DefaultInstance.SignIn();
         // variavel que recebe o feedback se deu algum erro ou se deu certo
         var signInCompleted = new TaskCompletionSource<FirebaseUser>();
 
-        signIn.ContinueWith(task =>
+        /*signIn.ContinueWith(task =>
         {
             if (task.IsCanceled)
             {
@@ -159,7 +159,7 @@ public class AuthManager : MonoBehaviour
                     }
                 });
             }
-        });
+        });*/
     }
 
     // retorna os dados do usuario quando deu certo o login

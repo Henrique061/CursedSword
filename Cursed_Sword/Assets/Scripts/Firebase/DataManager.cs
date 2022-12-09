@@ -52,7 +52,7 @@ public class DataManager : MonoBehaviour
     public bool SendDataToDatabase(string name, int score)
     {
         // if (!isDatabaseOk) return false;        
-        PlayerData pData = new PlayerData(name, score);
+        PlayerData pData = new PlayerData(name, score.ToString());
         string json = JsonUtility.ToJson(pData);
         // send the json file into the "players" structure in the database
         reference.Child("players").Child(AuthManager.instance.GetPlayerId()).SetRawJsonValueAsync(json);
