@@ -6,10 +6,10 @@ using TMPro;
 
 public class PlayerRanking : MonoBehaviour
 {
-    [HideInInspector] public string score;
-    float timer = 0;
+    [HideInInspector] public float timer = 0; //tempo que ele jogou
+    [HideInInspector] public string playerName; //nome do jogador
 
-    [HideInInspector] public string playerName;
+    [HideInInspector] public string score; //tempo que jogador jogou em 00h : 00m : 00s
 
     [HideInInspector] public bool isPlaying = true;
     [SerializeField] TMP_Text timerTxt;
