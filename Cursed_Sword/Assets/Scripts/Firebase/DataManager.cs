@@ -49,10 +49,10 @@ public class DataManager : MonoBehaviour
 
     // receives the name and the score, inserts it into an
     // object of type PlayerData and then transforms it into JSON
-    public bool SendDataToDatabase(string name, int score)
+    public bool SendDataToDatabase(string name, float score)
     {
         // if (!isDatabaseOk) return false;        
-        PlayerData pData = new PlayerData(name, score.ToString());
+        PlayerData pData = new PlayerData(name, score);
         string json = JsonUtility.ToJson(pData);
         // send the json file into the "players" structure in the database
         reference.Child("players").Child(AuthManager.instance.GetPlayerId()).SetRawJsonValueAsync(json);

@@ -26,7 +26,7 @@ public class PlayerRanking : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            SetScore();
+            SetScore(timer);
 
             if (timerTxt != null)
                 timerTxt.text = score;
@@ -35,7 +35,7 @@ public class PlayerRanking : MonoBehaviour
         {
             if (score == null)
             {
-                SetScore();
+                SetScore(timer);
             }
         }
     }
@@ -45,7 +45,7 @@ public class PlayerRanking : MonoBehaviour
         this.playerName = name;
     }
 
-    void SetScore()
+    public void SetScore(float timer)
     {
         int scoreH = (int)timer % 60;
 

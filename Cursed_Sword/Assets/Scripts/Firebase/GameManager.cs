@@ -12,7 +12,8 @@ using System.Linq;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI scoreText;
-    [SerializeField] TextMeshProUGUI scoreTotal;
+    public static string[] scoreTotalName = new string[10];
+    public static string[] scoreTotalTime = new string[10];
     [SerializeField] TextMeshProUGUI scoreFinal;
     [SerializeField] TextMeshProUGUI rankFinal;
     //[SerializeField] TMP_InputField inputName;
@@ -33,7 +34,8 @@ public class GameManager : MonoBehaviour
         // we are using InvokeReapeting because the data
         // loading is asynchronous and may have a delay.
         InvokeRepeating("GetDatamanagerScore", 0.2f, 0.2f);
-        scoreTotal.text = "Loading from Database.\nPlease, wait...";
+        scoreTotalName[0] = "Loading from Database.\nPlease, wait...";
+        scoreTotalTime[0] = "";
         // limits target framerate to save mobile device battery
         //Application.targetFrameRate = 30;        
     }
@@ -54,30 +56,35 @@ public class GameManager : MonoBehaviour
         playersScore = dm.GetScore();
         score = 0;
         scoreText.text = "Score: 000000";
-        scoreTotal.text = "Top 10 Scores\n\n";
+        //scoreTotal = "Top 10 Scores\n\n";
         // create a dictionary from it
         topTenPlayersScoreUnsorted = new Dictionary<string, int>();
-        for (int i = 0; i < playersName.Length; i++)
+        for (int j = 0; j < playersName.Length; j++)
         {
-            topTenPlayersScoreUnsorted.Add(playersName[i], playersScore[i]);
+            topTenPlayersScoreUnsorted.Add(playersName[j], playersScore[j]);
         }
         // sort dictionary to display on screen
         int counterTop10 = 10;
+
+        int i = 0;
         foreach (KeyValuePair<string, int> plr in topTenPlayersScoreUnsorted.OrderByDescending(key => key.Value))
         {
             if (counterTop10 > 0)
             {
-                scoreTotal.text += plr.Key + ": " + plr.Value + "\n";
+                scoreTotalName[0] = plr.Key;
+                scoreTotalTime[0] = SetScore(plr.Value);
                 counterTop10--;
+                i++;
             }
             else { break; }
         }
         // if the number of scores found in the bank is less than 10 items.
         if (counterTop10 > 0)
         {
-            for (int i = 0; i < counterTop10; i++)
+            for (; i < counterTop10; i++)
             {
-                scoreTotal.text += "Not Set: 000000\n";
+                scoreTotalName[i] = "Not Set";
+                scoreTotalTime[i] = SetScore(0);
             }
         }
     }
@@ -177,5 +184,18 @@ public class GameManager : MonoBehaviour
                 else { resultText.text = "Error sending data to database!"; }
             }
         }
+    }
+
+    string SetScore(float timer)
+    {
+        int scoreH = (int)timer % 60;
+
+        int scoreM = scoreH % 60;
+        scoreH = scoreH / 60;
+
+        int scoreS = scoreM % 60;
+        scoreM = scoreM / 60;
+
+        return $"{scoreH.ToString("00")}h :{scoreM.ToString("00")}m :{scoreS.ToString("00")}s";
     }
 }
