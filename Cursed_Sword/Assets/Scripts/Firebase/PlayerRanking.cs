@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerRanking : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerRanking : MonoBehaviour
     [HideInInspector] public string playerName;
 
     [HideInInspector] public bool isPlaying = true;
+    [SerializeField] TMP_Text timerTxt;
 
     /*private void Start()
     {
@@ -23,6 +25,11 @@ public class PlayerRanking : MonoBehaviour
         if (isPlaying)
         {
             timer += Time.deltaTime;
+
+            SetScore();
+
+            if (timerTxt != null)
+                timerTxt.text = score;
         }
         else 
         {
@@ -40,15 +47,15 @@ public class PlayerRanking : MonoBehaviour
 
     void SetScore()
     {
-        int scoreS = (int)timer % 60;
+        int scoreH = (int)timer % 60;
 
-        int scoreM = scoreS % 60;
-        scoreS = scoreS / 60;
+        int scoreM = scoreH % 60;
+        scoreH = scoreH / 60;
 
-        int scoreH = scoreM % 60;
+        int scoreS = scoreM % 60;
         scoreM = scoreM / 60;
 
-        score = $"{scoreH.ToString("00")}h:{scoreM.ToString("00")}m:{scoreS.ToString("00")}s";
+        score = $"{scoreH.ToString("00")}h :{scoreM.ToString("00")}m :{scoreS.ToString("00")}s";
     }
 
     public void NotPlaying() 
