@@ -25303,7 +25303,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &655135164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70325,6 +70325,7 @@ MonoBehaviour:
   mainObj: {fileID: 1453280216}
   scoreManager: {fileID: 1146340176}
   gameManager: {fileID: 1325061366}
+  gm: {fileID: 0}
 --- !u!1 &1718482439
 GameObject:
   m_ObjectHideFlags: 0
