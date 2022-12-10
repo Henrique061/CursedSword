@@ -149,6 +149,7 @@ public class GameManager : MonoBehaviour
         string playerName = AuthManager.instance.GetPlayerName();
         // if player's name is empty, set a default value
         if (playerName == "") { playerName = AuthManager.instance.GetPlayerEmail(); }
+        PlayerRanking.playerName = playerName;
         // check if actual score is bigger than previos score
         dm.GetOneChildScoreToCheckIfAtualScoreIsBigger(playerName, score);
         SetResultMessage();

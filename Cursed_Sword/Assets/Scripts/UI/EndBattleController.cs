@@ -17,6 +17,7 @@ public class EndBattleController : MonoBehaviour
     [Header("GameObjects")]
     [SerializeField] private GameObject mainObj;
     [SerializeField] private GameObject scoreManager;
+    [SerializeField] private GameObject gameManager;
 
     private float timer = 0.1f;
 
@@ -70,6 +71,7 @@ public class EndBattleController : MonoBehaviour
                 PauseController.gamePaused = false;
                 Time.timeScale = 1;
                 DontDestroyOnLoad(scoreManager);
+                DontDestroyOnLoad(gameManager);
                 SceneManager.LoadScene("Ranking");
             }
 
