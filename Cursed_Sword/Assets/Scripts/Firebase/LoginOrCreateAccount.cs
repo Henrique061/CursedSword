@@ -14,6 +14,11 @@ public class LoginOrCreateAccount : MonoBehaviour
 
     private int triesCheck = 0;
 
+    private void Update()
+    {
+        if (going)
+            LoadGameScene();
+    }
     void Start()
     {
         // se ja existe um usuario logado, ativa o painel para desconectar
