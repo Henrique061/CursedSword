@@ -6,8 +6,9 @@ using TMPro;
 
 public class PlayerRanking : MonoBehaviour
 {
-    [HideInInspector] public float timer = 0; //tempo que ele jogou
-    [HideInInspector] public string playerName; //nome do jogador
+    [SerializeField] GameManager gm;
+    [HideInInspector] public static float timer = 0; //tempo que ele jogou
+    [HideInInspector] public static string playerName; //nome do jogador
 
     [HideInInspector] public string score; //tempo que jogador jogou em 00h : 00m : 00s
 
@@ -42,7 +43,7 @@ public class PlayerRanking : MonoBehaviour
 
     public void SetName(string name) 
     {
-        this.playerName = name;
+        playerName = name;
     }
 
     public void SetScore(float timer)

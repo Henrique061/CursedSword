@@ -11,7 +11,6 @@ using System.Linq;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI scoreText;
     public static string[] scoreTotalName = new string[10];
     public static string[] scoreTotalTime = new string[10];
     [SerializeField] TextMeshProUGUI scoreFinal;
@@ -22,7 +21,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOverPanel;
     [SerializeField] DataManager dm;
     [SerializeField] int scoreForKill = 50;
-    private int score;
+    private float score;
     private int rank = 0;
     private bool gameOver = false;
     string[] playersName;
@@ -55,7 +54,6 @@ public class GameManager : MonoBehaviour
         playersName = dm.GetName();
         playersScore = dm.GetScore();
         score = 0;
-        scoreText.text = "Score: 000000";
         //scoreTotal = "Top 10 Scores\n\n";
         // create a dictionary from it
         topTenPlayersScoreUnsorted = new Dictionary<string, int>();
@@ -92,8 +90,7 @@ public class GameManager : MonoBehaviour
     // updates the score on destroying an enemy
     public void UpdateScore()
     {
-        score += scoreForKill;
-        scoreText.text = "Score: " + score.ToString("000000");
+        score += PlayerRanking.timer;
     }
 
     public void GameOver()

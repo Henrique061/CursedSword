@@ -121,7 +121,7 @@ public class DataManager : MonoBehaviour
     // results found in rawData. In a future update it will
     // check the entire bank if the player already exists
     // and if the score should be updated.
-    public void GetOneChildScoreToCheckIfAtualScoreIsBigger(string pname, int score)
+    public void GetOneChildScoreToCheckIfAtualScoreIsBigger(string pname, float score)
     {
         result = 0; // default when player isn't in database
         foreach (DataSnapshot child in rawData.Children)
