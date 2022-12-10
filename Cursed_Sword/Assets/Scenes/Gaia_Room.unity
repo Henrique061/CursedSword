@@ -42069,8 +42069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e4ce19f47d42044b909973c144e07e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
-  playerName: 
+  gm: {fileID: 0}
   score: 
   isPlaying: 1
   timerTxt: {fileID: 1213533278}
@@ -47173,8 +47172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c097c635f19f9da4abcad6dcc191b722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  scoreTotal: {fileID: 0}
   scoreFinal: {fileID: 0}
   rankFinal: {fileID: 0}
   resultText: {fileID: 0}
@@ -69047,6 +69044,7 @@ MonoBehaviour:
   sk: {fileID: 712249128}
   mainObj: {fileID: 1453280216}
   scoreManager: {fileID: 1146340176}
+  gameManager: {fileID: 1325061366}
 --- !u!1 &1718482439
 GameObject:
   m_ObjectHideFlags: 0

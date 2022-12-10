@@ -10,6 +10,7 @@ public class LoginOrCreateAccount : MonoBehaviour
     [SerializeField] TMP_InputField userPass;
     [SerializeField] TextMeshProUGUI returnText;
     [SerializeField] MainMenuLogin mainMenu;
+    [HideInInspector] public bool create;
 
     private int triesCheck = 0;
 
@@ -65,6 +66,8 @@ public class LoginOrCreateAccount : MonoBehaviour
                     AuthManager.instance.GetPlayerName() + ".";
                 mainMenu.EnableDisconnectPanel("Connected as " + playerName);
 
+
+
             }
             else if (sc == StatusConnection.logedOut)
             {
@@ -78,8 +81,6 @@ public class LoginOrCreateAccount : MonoBehaviour
             returnText.text = "Falha na tentativa de login. Tente novamente mais tarde.";
         }
     }
-
-
 
     // code from Anurag on
     // https://stackoverflow.com/questions/34715501/validating-password-using-regex-c-sharp
@@ -179,8 +180,24 @@ public class LoginOrCreateAccount : MonoBehaviour
         }
     }
 
+    public void ChangeCreatingbool(bool c) 
+    {
+        create = c;
+    }
+    public void isCreating() 
+    {
+        if (create)
+        {
+            CreateAccount();
+        }
+        else 
+        {
+            LoginWithEmailAndPassword();
+        }
+    }
+
     public void LoadGameScene()
     {
-        SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("Main_Menu");
     }
 }
