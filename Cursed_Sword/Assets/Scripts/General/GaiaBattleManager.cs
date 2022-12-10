@@ -245,7 +245,7 @@ public class GaiaBattleManager : MonoBehaviour
 
         if (returnFirstStage)
         {
-            if (spikeCounter >= 3)
+            if (spikeCounter >= 1)
                 SpikeCall();
 
             wasFirstStage = true;
@@ -274,7 +274,7 @@ public class GaiaBattleManager : MonoBehaviour
             }
         }
 
-        if (spikeCounter == 5)
+        if (spikeCounter >= 1)
         {
             startSpike = true;
 

@@ -48,6 +48,7 @@ public class PlayerRanking : MonoBehaviour
 
     public void SetScore(float timer)
     {
+        gm.UpdateScore();
         int scoreH = (int)timer % 60;
 
         int scoreM = scoreH % 60;

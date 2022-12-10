@@ -19,6 +19,8 @@ public class EndBattleController : MonoBehaviour
     [SerializeField] private GameObject scoreManager;
     [SerializeField] private GameObject gameManager;
 
+    public GameManager gm;
+
     private float timer = 0.1f;
 
     private bool isDead = true;
@@ -72,7 +74,8 @@ public class EndBattleController : MonoBehaviour
                 Time.timeScale = 1;
                 DontDestroyOnLoad(scoreManager);
                 DontDestroyOnLoad(gameManager);
-                SceneManager.LoadScene("Ranking");
+                gm.GameOver();
+                //SceneManager.LoadScene("Ranking");
             }
 
             else

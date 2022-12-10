@@ -1,6 +1,3 @@
-﻿/// DataManager
-/// @Author: Eduardo Gonelli
-/// Created at 22/10/2022
 
 using System.Collections;
 using System.Collections.Generic;
@@ -44,51 +41,54 @@ public class DataManager : MonoBehaviour
         });*/
 
         reference = FirebaseDatabase.DefaultInstance.RootReference;
-        RetrieveDataFromDatabase();
+        Debug.Log("URL [ " + reference + "]");
+        RetrieveDataFromDatabase();        
     }
 
     // receives the name and the score, inserts it into an
     // object of type PlayerData and then transforms it into JSON
-    public bool SendDataToDatabase(string name, float score)
+    public bool SendDataToDatabase(string name, int score)
     {
         // if (!isDatabaseOk) return false;        
         PlayerData pData = new PlayerData(name, score);
         string json = JsonUtility.ToJson(pData);
+        Debug.Log(".JSON [ " + json + " ]");
+
         // send the json file into the "players" structure in the database
-        reference.Child("players").Child(AuthManager.instance.GetPlayerId()).SetRawJsonValueAsync(json);
+        reference.Child("players").Child(name).SetRawJsonValueAsync(json);
         return true;
     }
 
     // retrieve data from database
-    public void RetrieveDataFromDatabase()
-    {
+    public void RetrieveDataFromDatabase(){        
         isDatabaseOk = false;
         // retrieve all children of "players", sort by child
         // "playerScore", limit to the last 10 records (the highest).
         FirebaseDatabase.DefaultInstance.GetReference("players").OrderByChild("playerScore").LimitToLast(10).GetValueAsync().ContinueWithOnMainThread(task =>
         {
             //if any error occurred
-            if (task.IsFaulted)
-            {
-                Debug.LogError("Error while loading database");
+            if (task.IsFaulted){
+                Debug.LogError("Error while loading database");                
                 isDatabaseOk = false;
+                Debug.Log("status DB - offline [ " + isDatabaseOk + " ]");    
             }
             // if it worked, get the result and associate it
             // to the variable of type Datasnapshot rawData
-            else if (task.IsCompleted)
-            {
+            else if (task.IsCompleted){
                 rawData = task.Result;
-                isDatabaseOk = true;
+                isDatabaseOk = true;  
+                Debug.Log("status DB - online [ " + isDatabaseOk + " ]");                         
             }
-        });
+        });                
     }
 
     public int[] GetScore()
-    {
+    {        
         return playersScore;
     }
+   
     public string[] GetName()
-    {
+    {        
         return playersName;
     }
 
@@ -100,8 +100,8 @@ public class DataManager : MonoBehaviour
         int counterPlayers = 0;
         playersName = new string[rawData.ChildrenCount];
         playersScore = new int[rawData.ChildrenCount];
-
-        foreach (DataSnapshot child in rawData.Children)
+        
+        foreach(DataSnapshot child in rawData.Children)
         {
             // the first child refers to the immediate child
             // of "players". child.Child("playerName").Value
@@ -110,7 +110,7 @@ public class DataManager : MonoBehaviour
             // same thing for playerScore child, but need to
             // pass to string and then pass to int.
             int.TryParse(child.Child("playerScore").Value.ToString(), out playersScore[counterPlayers]);
-            counterPlayers++;
+            counterPlayers++;            
         }
     }
 
@@ -121,19 +121,29 @@ public class DataManager : MonoBehaviour
     // results found in rawData. In a future update it will
     // check the entire bank if the player already exists
     // and if the score should be updated.
-    public void GetOneChildScoreToCheckIfAtualScoreIsBigger(string pname, float score)
-    {
+    public void GetOneChildScoreToCheckIfAtualScoreIsBigger(string pname, int score)
+    {        
         result = 0; // default when player isn't in database
         foreach (DataSnapshot child in rawData.Children)
         {
             if (pname == child.Child("playerName").Value.ToString()) //if player is in database
             {
                 int oldScore; // get old score from database (line below)
+
                 int.TryParse(child.Child("playerScore").Value.ToString(), out oldScore);
-                if (score > oldScore) { result = 1; } // if actual score is bigger
-                else { result = -1; } // if is lesser or equal
+
+                if(score > oldScore) 
+                {
+                    result = 1; // if actual score is bigger
+                } 
+
+                else
+                {
+                    result = -1; // if is lesser or equal
+                } 
+
                 break;
-            }
+            }                                                
         }
         getResultSuccessfully = true;
     }
