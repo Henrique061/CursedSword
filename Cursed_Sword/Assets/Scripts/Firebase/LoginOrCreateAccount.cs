@@ -9,8 +9,8 @@ public class LoginOrCreateAccount : MonoBehaviour
     [SerializeField] TMP_InputField userEmail;
     [SerializeField] TMP_InputField userPass;
     [SerializeField] TextMeshProUGUI returnText;
-    [SerializeField] MainMenuLogin mainMenu;
     [HideInInspector] public bool create;
+    public bool going;
 
     private int triesCheck = 0;
 
@@ -22,7 +22,7 @@ public class LoginOrCreateAccount : MonoBehaviour
             string playerName = AuthManager.instance.GetPlayerName() == "" ?
                     AuthManager.instance.GetPlayerEmail() :
                     AuthManager.instance.GetPlayerName() + ".";
-            mainMenu.EnableDisconnectPanel("Connected as " + playerName);
+            //mainMenu.EnableDisconnectPanel("Connected as " + playerName);
         }
     }
 
@@ -64,14 +64,14 @@ public class LoginOrCreateAccount : MonoBehaviour
                 string playerName = AuthManager.instance.GetPlayerName() == "" ?
                     AuthManager.instance.GetPlayerEmail() :
                     AuthManager.instance.GetPlayerName() + ".";
-                mainMenu.EnableDisconnectPanel("Connected as " + playerName);
+                //mainMenu.EnableDisconnectPanel("Connected as " + playerName);
 
 
 
             }
             else if (sc == StatusConnection.logedOut)
             {
-                mainMenu.DisableDisconnectPanel();
+                //mainMenu.DisableDisconnectPanel();
             }
         }
         // tenta 20 vezes. se falhar, para
@@ -176,7 +176,7 @@ public class LoginOrCreateAccount : MonoBehaviour
             string playerName = AuthManager.instance.GetPlayerName() == "" ?
                     AuthManager.instance.GetPlayerEmail() :
                     AuthManager.instance.GetPlayerName() + ".";
-            mainMenu.EnableDisconnectPanel("Connected as " + playerName);
+            //mainMenu.EnableDisconnectPanel("Connected as " + playerName);
         }
     }
 
@@ -198,6 +198,7 @@ public class LoginOrCreateAccount : MonoBehaviour
 
     public void LoadGameScene()
     {
-        SceneManager.LoadScene("Main_Menu");
+        if(going)
+            SceneManager.LoadScene("Main_Menu");
     }
 }

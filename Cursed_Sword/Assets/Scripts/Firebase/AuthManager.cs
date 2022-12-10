@@ -6,8 +6,10 @@ using Google;
 using System.Threading.Tasks;
 
 public enum StatusConnection { connected, cancell, fail, error, logedOut }
+
 public class AuthManager : MonoBehaviour
 {
+    public LoginOrCreateAccount lg;
     // aplicando singleton no metodo
     public static AuthManager instance;
     private void Awake()
@@ -52,6 +54,7 @@ public class AuthManager : MonoBehaviour
             user = task.Result;
             finalResult = string.Format("Usuário criado com sucesso: {0} ({1})", user.DisplayName, user.UserId);
             statusConnection = StatusConnection.connected;
+            lg.going = true;
         });
     }
 
@@ -90,6 +93,8 @@ public class AuthManager : MonoBehaviour
             user = task.Result;
             finalResult = string.Format("Usuário {0} autenticado com sucesso", user.DisplayName);
             statusConnection = StatusConnection.connected;
+            lg.going = true;
+
         });
     }
 
