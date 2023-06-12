@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Energy_F_Explode
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -588, y: -790}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 592, y: 794}
   - name: Energy_F_Neutra
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -637, y: -154}
+    uvTransform: {x: 4, y: 616}
+    spritePosition: {x: 641, y: 770}
   - name: Energy_B_Explode
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -226, y: -793}
+    uvTransform: {x: 369, y: 4}
+    spritePosition: {x: 595, y: 797}
   - name: Energy_B_Neutral
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -275, y: -164}
+    uvTransform: {x: 369, y: 609}
+    spritePosition: {x: 644, y: 773}
   characterData:
     bones: []
     parts: []

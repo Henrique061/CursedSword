@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: Life_3
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -717, y: -985}
+    uvTransform: {x: 37, y: 4}
+    spritePosition: {x: 754, y: 989}
   - name: Life_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -686, y: -997}
+    uvTransform: {x: 69, y: 4}
+    spritePosition: {x: 755, y: 1001}
   - name: Life_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -749, y: -983}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 753, y: 987}
   characterData:
     bones: []
     parts: []

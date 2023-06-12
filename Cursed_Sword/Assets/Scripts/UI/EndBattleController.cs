@@ -19,8 +19,6 @@ public class EndBattleController : MonoBehaviour
     [SerializeField] private GameObject scoreManager;
     [SerializeField] private GameObject gameManager;
 
-    public GameManager gm;
-
     private float timer = 0.1f;
 
     private bool isDead = true;
@@ -46,8 +44,6 @@ public class EndBattleController : MonoBehaviour
             {
                 if (!ending)
                 {
-                    scoreManager.GetComponent<PlayerRanking>().NotPlaying();
-
                     cc.canAttack = false;
                     cc.canJump = false;
                     cm.canWalk = false;
@@ -72,20 +68,11 @@ public class EndBattleController : MonoBehaviour
                 PauseController.canPause = true;
                 PauseController.gamePaused = false;
                 Time.timeScale = 1;
-                DontDestroyOnLoad(scoreManager);
-                DontDestroyOnLoad(gameManager);
-                gm.GameOver();
-                //SceneManager.LoadScene("Ranking");
+                SceneManager.LoadScene("Main_Menu");
             }
 
             else
                 timer -= Time.unscaledDeltaTime;
         }
     }
-
-    /*public void ToRank() 
-    {
-        SceneManager.LoadScene("Ranking");
-        Time.timeScale = 1;
-    }*/
 }

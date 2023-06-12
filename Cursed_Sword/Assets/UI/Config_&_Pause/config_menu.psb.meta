@@ -47,6 +47,7 @@ ScriptedImporter:
     flipbookRows: 0
     flipbookColumns: 0
     ignorePngGamma: 0
+    cookieMode: 0
     filterMode: 1
     aniso: 1
     mipBias: 0
@@ -89,6 +90,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: divisoria_comandos
@@ -111,7 +113,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 399, y: 1107}
+    uvTransform: {x: 492, y: 1696}
+    spritePosition: {x: 93, y: 589}
   - name: divisoria
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -132,7 +135,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 555, y: 4}
+    uvTransform: {x: 1932, y: 4}
+    spritePosition: {x: 1377, y: 0}
   - name: logo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -153,7 +157,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1407, y: 704}
+    uvTransform: {x: 4, y: 1388}
+    spritePosition: {x: 1411, y: 684}
   - name: 'RT: HABILIDADE 2'
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -174,7 +179,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 683, y: 671}
+    uvTransform: {x: 1443, y: 1654}
+    spritePosition: {x: 760, y: 983}
   - name: riscos_skill2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +201,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 192, y: 655}
+    uvTransform: {x: 949, y: 1586}
+    spritePosition: {x: 757, y: 931}
   - name: 'LT: HABILIDADE 1'
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +223,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 726, y: 108}
+    uvTransform: {x: 912, y: 1092}
+    spritePosition: {x: 186, y: 984}
   - name: riscos_skill1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -237,7 +245,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 763, y: 709}
+    uvTransform: {x: 949, y: 1640}
+    spritePosition: {x: 186, y: 931}
   - name: PULAR
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -258,7 +267,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 771, y: 341}
+    uvTransform: {x: 1711, y: 1128}
+    spritePosition: {x: 940, y: 787}
   - name: risco_jump
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -279,7 +289,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 675, y: 785}
+    uvTransform: {x: 1443, y: 1560}
+    spritePosition: {x: 768, y: 775}
   - name: ATACAR
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -300,7 +311,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 980, y: 233}
+    uvTransform: {x: 1823, y: 1092}
+    spritePosition: {x: 843, y: 859}
   - name: risco_attack
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -321,7 +333,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 855, y: 332}
+    uvTransform: {x: 1596, y: 1178}
+    spritePosition: {x: 741, y: 846}
   - name: MOVER
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -342,7 +355,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 811, y: 344}
+    uvTransform: {x: 1088, y: 1128}
+    spritePosition: {x: 277, y: 784}
   - name: risco_move_setas
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -363,7 +377,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1395, y: 923}
+    uvTransform: {x: 1673, y: 1696}
+    spritePosition: {x: 278, y: 773}
   - name: MOVER_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -384,7 +399,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1250, y: 268}
+    uvTransform: {x: 1556, y: 1128}
+    spritePosition: {x: 306, y: 860}
   - name: risco_move_stick
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -405,7 +421,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1475, y: 318}
+    uvTransform: {x: 1781, y: 1165}
+    spritePosition: {x: 306, y: 847}
   - name: controle
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -426,7 +443,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 68, y: 749}
+    uvTransform: {x: 492, y: 1388}
+    spritePosition: {x: 424, y: 639}
   - name: ATACAR_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -447,7 +465,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 626, y: 1343}
+    uvTransform: {x: 1801, y: 1654}
+    spritePosition: {x: 1175, y: 311}
   - name: risco_attack_enter
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -468,7 +487,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 419, y: 867}
+    uvTransform: {x: 1202, y: 1165}
+    spritePosition: {x: 783, y: 298}
   - name: PAUSAR
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -489,7 +509,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 864, y: 703}
+    uvTransform: {x: 912, y: 1128}
+    spritePosition: {x: 48, y: 425}
   - name: risco_pause
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -510,7 +531,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1717, y: 1181}
+    uvTransform: {x: 1763, y: 1596}
+    spritePosition: {x: 46, y: 415}
   - name: Camada 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -531,7 +553,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1169, y: 817}
+    uvTransform: {x: 1244, y: 1128}
+    spritePosition: {x: 75, y: 311}
   - name: riscos_move_ad
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -552,7 +575,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1368, y: 1341}
+    uvTransform: {x: 1443, y: 1609}
+    spritePosition: {x: 75, y: 268}
   - name: HABILIDADE 2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -573,7 +597,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1672, y: 1517}
+    uvTransform: {x: 1763, y: 1560}
+    spritePosition: {x: 91, y: 43}
   - name: riscos_skill2_x
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -594,7 +619,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -86, y: 1719}
+    uvTransform: {x: 4, y: 1747}
+    spritePosition: {x: 90, y: 28}
   - name: HABILIDADE 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -615,7 +641,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1203, y: 971}
+    uvTransform: {x: 1259, y: 1092}
+    spritePosition: {x: 56, y: 121}
   - name: riscos_skill1_z
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -636,7 +663,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1687, y: 1278}
+    uvTransform: {x: 1740, y: 1388}
+    spritePosition: {x: 53, y: 110}
   - name: HABILIDADE 2_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -657,7 +685,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1147, y: 1007}
+    uvTransform: {x: 1740, y: 1516}
+    spritePosition: {x: 593, y: 509}
   - name: riscos_skill2_e
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -678,7 +707,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 558, y: 1074}
+    uvTransform: {x: 949, y: 1388}
+    spritePosition: {x: 391, y: 314}
   - name: HABILIDADE 1_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -699,7 +729,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1507, y: 602}
+    uvTransform: {x: 1541, y: 1092}
+    spritePosition: {x: 34, y: 490}
   - name: riscos_skill_q
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -720,7 +751,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1411, y: 1067}
+    uvTransform: {x: 1443, y: 1388}
+    spritePosition: {x: 32, y: 321}
   - name: Camada 1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -741,7 +773,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1737, y: 1373}
+    uvTransform: {x: 1783, y: 1609}
+    spritePosition: {x: 46, y: 236}
   - name: risco_attack_shift
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -762,7 +795,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 862, y: 976}
+    uvTransform: {x: 912, y: 1201}
+    spritePosition: {x: 50, y: 225}
   - name: PULAR_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -783,7 +817,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1340, y: 1012}
+    uvTransform: {x: 1856, y: 1128}
+    spritePosition: {x: 516, y: 116}
   - name: riscos_jump_space
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -804,7 +839,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -186, y: 1819}
+    uvTransform: {x: 315, y: 1924}
+    spritePosition: {x: 501, y: 105}
   - name: PULAR_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -825,7 +861,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 553, y: 669}
+    uvTransform: {x: 912, y: 1165}
+    spritePosition: {x: 359, y: 496}
   - name: riscos_jump_w
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -846,7 +883,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -42, y: 1428}
+    uvTransform: {x: 315, y: 1747}
+    spritePosition: {x: 357, y: 319}
   - name: PULAR_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -867,7 +905,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -85, y: 923}
+    uvTransform: {x: 1057, y: 1165}
+    spritePosition: {x: 1142, y: 242}
   - name: risco_set_cima
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -888,7 +927,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 309, y: 947}
+    uvTransform: {x: 1202, y: 1178}
+    spritePosition: {x: 893, y: 231}
   - name: MOVER_2
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -909,7 +949,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 459, y: 1018}
+    uvTransform: {x: 1400, y: 1128}
+    spritePosition: {x: 941, y: 110}
   - name: risco_setas
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -930,7 +971,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -842, y: 1854}
+    uvTransform: {x: 4, y: 1954}
+    spritePosition: {x: 846, y: 100}
   - name: teclado
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -951,7 +993,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -225, y: 927}
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 229, y: 165}
   - name: fundo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -973,6 +1016,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
