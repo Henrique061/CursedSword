@@ -85085,6 +85085,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Buttons_Panel
       objectReference: {fileID: 0}
+    - target: {fileID: 5633055920643483408, guid: 581b2bf44fceb4f48b0fe5b590b22a1e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 581b2bf44fceb4f48b0fe5b590b22a1e, type: 3}
 --- !u!1001 &8534011361713591309
