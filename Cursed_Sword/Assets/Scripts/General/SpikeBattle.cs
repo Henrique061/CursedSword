@@ -489,7 +489,7 @@ public class SpikeBattle : MonoBehaviour
             {
                 if (spikesTransform[0].position.y > -2.58 - 8.65f) // until stuck
                 {
-                    spikesTransform[0].position = new Vector2(spikesTransform[0].position.x, spikesTransform[0].position.y - spikeVel);
+                    spikesTransform[0].position = new Vector2(spikesTransform[0].position.x, spikesTransform[0].position.y - spikeVel * Time.deltaTime);
                 }
 
                 else
@@ -535,7 +535,7 @@ public class SpikeBattle : MonoBehaviour
 
                         if (spikesTransform[0].position.y > -2.58 - 8.65f) // until stuck
                         {
-                            spikesTransform[0].position = new Vector2(spikesTransform[0].position.x, spikesTransform[0].position.y - spikeVel);
+                            spikesTransform[0].position = new Vector2(spikesTransform[0].position.x, spikesTransform[0].position.y - spikeVel * Time.deltaTime);
                         }
 
                         else
@@ -579,7 +579,7 @@ public class SpikeBattle : MonoBehaviour
 
                         if (spikesTransform[1].position.y > -2.58 - 9.5f) // until stuck
                         {
-                            spikesTransform[1].position = new Vector2(spikesTransform[1].position.x, spikesTransform[1].position.y - spikeVel);
+                            spikesTransform[1].position = new Vector2(spikesTransform[1].position.x, spikesTransform[1].position.y - spikeVel * Time.deltaTime);
                         }
 
                         else
@@ -616,7 +616,7 @@ public class SpikeBattle : MonoBehaviour
                     {
                         if (spikesTransform[2].position.y > -2.58 - 9.5f) // until stuck
                         {
-                            spikesTransform[2].position = new Vector2(spikesTransform[2].position.x, spikesTransform[2].position.y - spikeVel);
+                            spikesTransform[2].position = new Vector2(spikesTransform[2].position.x, spikesTransform[2].position.y - spikeVel * Time.deltaTime);
                         }
 
                         else
@@ -698,7 +698,7 @@ public class SpikeBattle : MonoBehaviour
                         ////////////////////////////////////////////////////////////////////////// finish positioning other spikes
 
                         if (spikesTransform[0].position.y > -2.58 - 8.65f) // until stuck
-                            spikesTransform[0].position = new Vector2(spikesTransform[0].position.x, spikesTransform[0].position.y - spikeVel);
+                            spikesTransform[0].position = new Vector2(spikesTransform[0].position.x, spikesTransform[0].position.y - spikeVel * Time.deltaTime);
 
                         else
                         {
@@ -752,7 +752,7 @@ public class SpikeBattle : MonoBehaviour
                         ////////////////////////////////////////////////////////////////////////// finish positioning other spikes
 
                         if (spikesTransform[1].position.y > -2.58 - 9.5f) // until stuck
-                            spikesTransform[1].position = new Vector2(spikesTransform[1].position.x, spikesTransform[1].position.y - spikeVel);
+                            spikesTransform[1].position = new Vector2(spikesTransform[1].position.x, spikesTransform[1].position.y - spikeVel * Time.deltaTime);
 
                         else
                         {
@@ -800,7 +800,7 @@ public class SpikeBattle : MonoBehaviour
                         ////////////////////////////////////////////////////////////////////////// finish positioning other spikes
 
                         if (spikesTransform[2].position.y > -2.58 - 9.5f) // until stuck
-                            spikesTransform[2].position = new Vector2(spikesTransform[2].position.x, spikesTransform[2].position.y - spikeVel);
+                            spikesTransform[2].position = new Vector2(spikesTransform[2].position.x, spikesTransform[2].position.y - spikeVel * Time.deltaTime);
 
                         else
                         {
@@ -842,7 +842,7 @@ public class SpikeBattle : MonoBehaviour
                         ////////////////////////////////////////////////////////////////////////// finish positioning other spikes
 
                         if (spikesTransform[3].position.y > -2.58 + spike4YOff) // until stuck
-                            spikesTransform[3].position = new Vector2(spikesTransform[3].position.x, spikesTransform[3].position.y - spikeVel);
+                            spikesTransform[3].position = new Vector2(spikesTransform[3].position.x, spikesTransform[3].position.y - spikeVel * Time.deltaTime);
 
                         else
                         {
@@ -877,7 +877,7 @@ public class SpikeBattle : MonoBehaviour
                     {
                         if (spikesTransform[4].position.y > -2.58 + spike5YOff) // until stuck
                         {
-                            spikesTransform[4].position = new Vector2(spikesTransform[4].position.x, spikesTransform[4].position.y - spikeVel);
+                            spikesTransform[4].position = new Vector2(spikesTransform[4].position.x, spikesTransform[4].position.y - spikeVel * Time.deltaTime);
                         }
 
                         else
