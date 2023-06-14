@@ -11,7 +11,8 @@
                     "id": "5bc08b92-927f-4878-bdee-68f511525d21",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Movement",
@@ -19,7 +20,8 @@
                     "id": "2e5479ff-03ed-4389-befe-ad80dc514ee9",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Skill_1",
@@ -27,7 +29,8 @@
                     "id": "46f387ac-04a9-4869-856f-f6f16b741afc",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Skill_2",
@@ -35,7 +38,8 @@
                     "id": "574d80bb-65ab-4440-a0c4-cc922bdd3aba",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Jump",
@@ -43,7 +47,8 @@
                     "id": "99e9463f-9340-4188-9b3e-cb0973b17cd5",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Ground_Pound",
@@ -51,7 +56,8 @@
                     "id": "51dfdc7e-00e7-45d6-b336-731fcb165798",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Pause",
@@ -59,7 +65,8 @@
                     "id": "766d0fb8-910d-45e9-9ea7-d00fdae4d436",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Test",
@@ -67,7 +74,8 @@
                     "id": "2f0d2e80-5b08-49e8-8aa0-07ce7113ae10",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -501,7 +509,8 @@
                     "id": "d9f452d0-114e-48f3-8b7e-2bf9c00f872f",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Submit",
@@ -509,7 +518,8 @@
                     "id": "5db4aa52-203e-43a1-9c50-2e705764e8d6",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Cancel",
@@ -517,7 +527,8 @@
                     "id": "2dd17b64-e97e-4862-974e-08a999fd9aa0",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Click",
@@ -525,7 +536,8 @@
                     "id": "7b5bce61-ef72-4266-8e17-e998c8e8fdbd",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "RightTab",
@@ -533,7 +545,8 @@
                     "id": "bca6ea64-df90-4d12-addf-eeaf90384b11",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "LeftTab",
@@ -541,7 +554,8 @@
                     "id": "d3f965eb-47c5-44be-ad81-d1ca0fdb582b",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Point",
@@ -549,7 +563,8 @@
                     "id": "3c0370ea-c4c1-461b-9cc0-897cff74f092",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -753,6 +768,17 @@
                 },
                 {
                     "name": "",
+                    "id": "ab665204-6db7-4b04-9f3a-9e9c2c6b0cb7",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "3e94a21b-cbba-45e5-8aba-532c414d17f1",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
@@ -862,7 +888,8 @@
                     "id": "5517d94a-e57b-4f50-a255-eaf4c3685654",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "RightTab",
@@ -870,7 +897,8 @@
                     "id": "ae739a6d-00b3-4371-86b8-fe0f0c1b20d9",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "LeftTab",
@@ -878,7 +906,8 @@
                     "id": "3d0c8fb0-2fe1-4359-97fd-b0740bb09590",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -947,6 +976,17 @@
                     "action": "Submit",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "00afb9d9-ee2a-4000-8a8f-074bee0cd7ec",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Submit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
@@ -955,12 +995,35 @@
         {
             "name": "Keyboard",
             "bindingGroup": "Keyboard",
-            "devices": []
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
         },
         {
             "name": "Gamepad",
             "bindingGroup": "Gamepad",
-            "devices": []
+            "devices": [
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Touch",
+            "bindingGroup": "Touch",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
         }
     ]
 }
