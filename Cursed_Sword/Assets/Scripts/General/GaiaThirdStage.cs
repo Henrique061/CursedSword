@@ -694,9 +694,9 @@ public class GaiaThirdStage : MonoBehaviour
             continueFoldIndex = 0;
 
             spikeCounter++;
-            if (spikeCounter >= 4)
+            if (spikeCounter >= 3)
             {
-                if (spikeCounter == 4)
+                if (spikeCounter == 3)
                 {
                     spikeChance = Random.Range(0, 100);
 
@@ -719,7 +719,7 @@ public class GaiaThirdStage : MonoBehaviour
                         DrawAttack();
                 }
 
-                else if (spikeCounter >= 5)
+                else if (spikeCounter >= 4)
                 {
                     if (supremeAttack == false)
                     {
@@ -777,9 +777,9 @@ public class GaiaThirdStage : MonoBehaviour
             else
             {
                 spikeCounter++;
-                if (spikeCounter >= 4)
+                if (spikeCounter >= 3)
                 {
-                    if (spikeCounter == 4)
+                    if (spikeCounter == 3)
                     {
                         spikeChance = Random.Range(0, 100);
 
@@ -807,7 +807,7 @@ public class GaiaThirdStage : MonoBehaviour
                         }
                     }
 
-                    else if (spikeCounter >= 5)
+                    else if (spikeCounter >= 4)
                     {
                         if (supremeAttack == false)
                         {

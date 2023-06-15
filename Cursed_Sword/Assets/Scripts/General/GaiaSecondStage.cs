@@ -375,13 +375,13 @@ public class GaiaSecondStage : MonoBehaviour
 
     private void SpikeCall()
     {
-        if (spikeCounter == 3)
+        if (spikeCounter == 2)
             spikeChance = Random.Range(0, 100);
 
-        else if (spikeCounter == 4)
+        else if (spikeCounter == 3)
             spikeChance = Random.Range(25, 100);
 
-        if (spikeCounter == 3 || spikeCounter == 4)
+        if (spikeCounter == 2 || spikeCounter == 3)
         {
             if (spikeChance >= 50)
             {
@@ -395,7 +395,7 @@ public class GaiaSecondStage : MonoBehaviour
             }
         }
 
-        else if (spikeCounter == 5)
+        else if (spikeCounter == 4)
         {
             spikeCounter = 0;
             sb.BeginSpike(2);
