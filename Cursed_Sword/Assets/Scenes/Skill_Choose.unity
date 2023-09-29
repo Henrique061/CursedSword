@@ -194,7 +194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Recarga - 10 segundos.
+  m_Text: Cooldown - 10 segundos.
 --- !u!222 &1617015
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -220,7 +220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &50407034
 RectTransform:
   m_ObjectHideFlags: 0
@@ -598,7 +598,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &151754624
 RectTransform:
   m_ObjectHideFlags: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Escolha suas habilidades
+  m_Text: Choose your skills
 --- !u!222 &191802518
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1257,7 +1257,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -561, y: 4}
+  m_AnchoredPosition: {x: -639, y: 4}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &222469766
@@ -1690,8 +1690,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: -6.89, y: -12.39}
+  m_SizeDelta: {x: 2423.99, y: 1176.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &368340193
 GameObject:
@@ -1938,8 +1938,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "N\xE3o fique parado, o espinho ir\xE1 cair na mesma posi\xE7\xE3o que
-    voc\xEA estiver!"
+  m_Text: Don't stay stoped, the spike will go down in the same direction that you
+    are at!
 --- !u!222 &416344677
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2171,7 +2171,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: SELECIONADO
+  m_Text: SELECTED
 --- !u!222 &459168453
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2324,7 +2324,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 458.8}
+  m_AnchoredPosition: {x: 0, y: 409}
   m_SizeDelta: {x: 1078.91, y: 111.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497544367
@@ -2360,7 +2360,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Voc\xEA ir\xE1 enfrentar..."
+  m_Text: You will face...
 --- !u!222 &497544368
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2386,7 +2386,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &584423063
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2516,7 +2516,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Enfrentando Gaia...
+  m_Text: Facing Gaia...
 --- !u!222 &616168379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2855,7 +2855,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "N\xE3o"
+  m_Text: No
 --- !u!222 &660557352
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2944,8 +2944,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.28, y: -174.4}
-  m_SizeDelta: {x: 1136.4, y: 153.2}
+  m_AnchoredPosition: {x: -1.26, y: -174.4}
+  m_SizeDelta: {x: 1407.88, y: 153.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &726433353
 GameObject:
@@ -2982,8 +2982,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.3, y: 162.36}
-  m_SizeDelta: {x: 765, y: 430}
+  m_AnchoredPosition: {x: -3.87, y: 162.36}
+  m_SizeDelta: {x: 930.89, y: 430}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &726433355
 MonoBehaviour:
@@ -3081,7 +3081,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Avan\xE7ar"
+  m_text: START BATTLE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3305,8 +3305,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Quando voc\xEA destruir todos os espinhos fincados, ela ir\xE1 derrubar
-    sua l\xEDngua. Agora voc\xEA ter\xE1 que atac\xE1-la com tudo o que tem!"
+  m_Text: When you get all her stucked spikes destroyed, she will drop her tongue.
+    Now you have to attack her with all you got!
 --- !u!222 &776808330
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3647,7 +3647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &879696698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4109,7 +4109,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Sim
+  m_Text: Yes
 --- !u!222 &951632213
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4478,7 +4478,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1037411476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4709,7 +4709,6 @@ GameObject:
   - component: {fileID: 1101378122}
   - component: {fileID: 1101378121}
   - component: {fileID: 1101378120}
-  - component: {fileID: 1101378123}
   m_Layer: 5
   m_Name: btn_carregar
   m_TagString: Untagged
@@ -4781,7 +4780,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1101378121}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1609957638}
+        m_TargetAssemblyTypeName: LoadingController, Assembly-CSharp
+        m_MethodName: LoadEnd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1101378121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4820,19 +4831,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101378118}
   m_CullTransparentMesh: 1
---- !u!114 &1101378123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101378118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d54531977ecb194c95e2d3aa7a5d72a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ControlPath: <Keyboard>/enter
 --- !u!1 &1104766153
 GameObject:
   m_ObjectHideFlags: 0
@@ -4904,7 +4902,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: ACENDER
+  m_Text: FIREUP
 --- !u!222 &1104766156
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4984,7 +4982,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Recarga - 30 segundos.
+  m_Text: Cooldown - 30 seconds.
 --- !u!222 &1122156558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6110,7 +6108,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: TERREMOTO
+  m_Text: EARTHQUAKE
 --- !u!222 &1275140612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6311,7 +6309,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Carregando...
+  m_Text: Loading...
 --- !u!222 &1306845148
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6675,7 +6673,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Quando seus espinhos fincarem no ch\xE3o, quebre-os sem perder tempo!"
+  m_Text: When her spikes get stucked to te ground, break them without wasting time!
 --- !u!222 &1370727260
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6710,7 +6708,7 @@ RectTransform:
   m_GameObject: {fileID: 1375088528}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1101378119}
@@ -6719,7 +6717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33.9, y: -446.6}
+  m_AnchoredPosition: {x: -38, y: -461}
   m_SizeDelta: {x: 743.59, y: 109}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1375088531
@@ -6801,8 +6799,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Preste aten\xE7\xE3o nas vinhas atr\xE1s dela, quando uma vinha de algum
-    lado ir para baixo, preste aten\xE7\xE3o naquele mesmo lado."
+  m_Text: Pay attention on the vines behind her, when a vine from some side goes
+    down, pay attention with that same side.
 --- !u!222 &1376354444
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7335,8 +7333,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: -0.01, y: -1.39}
+  m_SizeDelta: {x: 2437.57, y: 1154.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1557241318
 MonoBehaviour:
@@ -7447,7 +7445,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: ... ou suas vinhas.
+  m_Text: ... or her vines.
 --- !u!222 &1577446067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7659,7 +7657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1593045364
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7713,7 +7711,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "N\xE3o perca tempo atacando o corpo dela..."
+  m_Text: Dont't waste your time attacking her body...
 --- !u!222 &1593045366
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7877,7 +7875,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Recarga - 12 segundos.
+  m_Text: Cooldown - 12 seconds.
 --- !u!222 &1597625820
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8744,7 +8742,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: VOO BAIXO
+  m_Text: LOW FLIGHT
 --- !u!222 &1746247040
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8871,7 +8869,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -3.3, y: 163.9}
-  m_SizeDelta: {x: 751.12, y: 416.4}
+  m_SizeDelta: {x: 913.52, y: 416.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1866344851
 GameObject:
@@ -9070,7 +9068,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 558, y: 4}
+  m_AnchoredPosition: {x: 639, y: 4}
   m_SizeDelta: {x: 160, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1999225363
@@ -9239,8 +9237,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Preste aten\xE7\xE3o no ch\xE3o tamb\xE9m, vinhas podem atacar por baixo,
-    fique em um lugar em que ficar\xE1 seguro!"
+  m_Text: Pay attention to the ground too, vines can come from below, stay in a place
+    where you will be safe!
 --- !u!222 &2000350701
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9674,7 +9672,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Quando um espinho subir, ele ficar\xE1 no ar por alguns segundos..."
+  m_Text: When a spike goes up, it will be in the air for some seconds...
 --- !u!222 &2016061878
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10142,7 +10140,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Recarga - 7 segundos.
+  m_Text: Cooldown - 7 seconds.
 --- !u!222 &2119777308
 CanvasRenderer:
   m_ObjectHideFlags: 0

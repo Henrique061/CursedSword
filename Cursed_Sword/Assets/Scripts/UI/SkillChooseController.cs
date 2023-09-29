@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using static UnityEditor.Progress;
+using System.ComponentModel;
+using System.Drawing;
 
 public class SkillChooseController : MonoBehaviour
 {
@@ -120,20 +123,20 @@ public class SkillChooseController : MonoBehaviour
         for (int i = 0; i < alreadySelected.Length; i++)
             alreadySubmited[i] = false;
 
-        //lowflightDescString = "<color=white>Makes a dash towards the side you are facing in, making you </color> " + "<color=yellow>invulnerable </color>" + "<color=white>for that time and causing </color>" + "<color=yellow>20 </color>" + "<color=white>damage to the enemies that you pass by.</color>";
-        lowflightDescString = "<color=white>Se dispare na direção em que está olhando, o tornando </color> " + "<color=yellow>invulnerável </color>" + "<color=white>nesse tempo, e causando </color>" + "<color=yellow>20 </color>" + "<color=white>de dano nos inimigos que você atravessa.</color>";
+        lowflightDescString = "<color=white>Makes a dash towards the side you are facing in, making you </color> " + "<color=yellow>invulnerable </color>" + "<color=white>for that time and causing </color>" + "<color=yellow>20 </color>" + "<color=white>damage to the enemies that you pass by.</color>";
+        //lowflightDescString = "<color=white>Se dispare na direï¿½ï¿½o em que estï¿½ olhando, o tornando </color> " + "<color=yellow>invulnerï¿½vel </color>" + "<color=white>nesse tempo, e causando </color>" + "<color=yellow>20 </color>" + "<color=white>de dano nos inimigos que vocï¿½ atravessa.</color>";
         lowflightDesc.text = lowflightDescString;
 
-        //earthquakeDescString = "<color=white>Makes you pound the ground, causing </color> " + "<color=yellow>40 </color>" + "<color=white>damage in your </color>" + "<color=yellow>area.</color>";
-        earthquakeDescString = "<color=white>Faz você socar o chão, causando </color> " + "<color=yellow>40 </color>" + "<color=white>de dano na sua </color>" + "<color=yellow>área.</color>";
+        earthquakeDescString = "<color=white>Makes you pound the ground, causing </color> " + "<color=yellow>40 </color>" + "<color=white>damage in your </color>" + "<color=yellow>area.</color>";
+        //earthquakeDescString = "<color=white>Faz vocï¿½ socar o chï¿½o, causando </color> " + "<color=yellow>40 </color>" + "<color=white>de dano na sua </color>" + "<color=yellow>ï¿½rea.</color>";
         earthquakeDesc.text = earthquakeDescString;
 
-        //fireupDescString = "<color=white>Increases your basic attack damage by </color> " + "<color=yellow>75 percent </color>" + "<color=white>for </color>" + "<color=yellow>10 seconds.</color>";
-        fireupDescString = "<color=white>Aumenta o dano do seu ataque básico em </color> " + "<color=yellow>75 porcento </color>" + "<color=white>por </color>" + "<color=yellow>10 segundos.</color>";
+        fireupDescString = "<color=white>Increases your basic attack damage by </color> " + "<color=yellow>75 percent </color>" + "<color=white>for </color>" + "<color=yellow>10 seconds.</color>";
+        //fireupDescString = "<color=white>Aumenta o dano do seu ataque bï¿½sico em </color> " + "<color=yellow>75 porcento </color>" + "<color=white>por </color>" + "<color=yellow>10 segundos.</color>";
         fireupDesc.text = fireupDescString;
 
-        //laserDescString = "<color=white>Creates a laser beam in front of you, towards the side you are facing in, covering the entire </color> " + "<color=yellow>horizontal </color>" + "<color=white>direction, causing </color>" + "<color=yellow>25 </color>" + "<color=white>damage on every enemy that touches it.</color>";
-        laserDescString = "<color=white>Cria um raio laser à sua frente, na direção em que você está olhando, cobrindo inteiramente a direção </color> " + "<color=yellow>horizontal </color>" + "<color=white>, causando </color>" + "<color=yellow>25 </color>" + "<color=white>de dano em qualquer inimigo que o encoste.</color>";
+        laserDescString = "<color=white>Creates a laser beam in front of you, towards the side you are facing in, covering the entire </color> " + "<color=yellow>horizontal </color>" + "<color=white>direction, causing </color>" + "<color=yellow>25 </color>" + "<color=white>damage on every enemy that touches it.</color>";
+        //laserDescString = "<color=white>Cria um raio laser ï¿½ sua frente, na direï¿½ï¿½o em que vocï¿½ estï¿½ olhando, cobrindo inteiramente a direï¿½ï¿½o </color> " + "<color=yellow>horizontal </color>" + "<color=white>, causando </color>" + "<color=yellow>25 </color>" + "<color=white>de dano em qualquer inimigo que o encoste.</color>";
         laserDesc.text = laserDescString;
     }
 
@@ -353,7 +356,7 @@ public class SkillChooseController : MonoBehaviour
             if (skillCount == 0)
             {
                 skill1 = "lowflight";
-                skill1Text = "Voo Baixo";
+                skill1Text = "Low Flight";
 
                 blackSelected1.SetActive(true);
                 blackSelected1.transform.position = new Vector2(lowflightButton.transform.position.x, lowflightButton.transform.position.y);
@@ -362,123 +365,99 @@ public class SkillChooseController : MonoBehaviour
             else if (skillCount == 1)
             {
                 skill2 = "lowflight";
-                skill2Text = "Voo Baixo";
+                skill2Text = "Low Flight";
 
                 lowflightSelected.GetComponent<Image>().rectTransform.anchoredPosition = new Vector2(secondSkillXPos, -334.1f);
 
                 blackSelected2.SetActive(true);
                 blackSelected2.transform.position = new Vector2(lowflightButton.transform.position.x, lowflightButton.transform.position.y);
 
-                confirmString = "<color=white>Tem certeza que deseja usar </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> e </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> como suas habilidades?</color>";
+                //confirmString = "<color=white>Tem certeza que deseja usar </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> e </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> como suas habilidades?</color>";
+                confirmString = "<color=white>Are you sure you want to use </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> and </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> as your skills?</color>";
 
                 playUpdate = false;
                 blockSelection.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(null);
             }
-
             skillCount++;
             LowFLightSelect();
         }
-
         else
             ChooseError("lowflight");
     }
-
     public void EarthquakeChoosed()
     {
         if (!alreadySubmited[1])
         {
             FindObjectOfType<AudioManager>().PlaySound("Earthquake");
             earthquakeSelected.SetActive(true);
-
             alreadySubmited[1] = true;
-
             if (skillCount == 0)
             {
                 skill1 = "earthquake";
-                skill1Text = "Terremoto";
-
+                skill1Text = "Earthquake";
                 blackSelected1.SetActive(true);
                 blackSelected1.transform.position = new Vector2(earthquakeButton.transform.position.x, earthquakeButton.transform.position.y);
             }
-
             else if (skillCount == 1)
             {
                 skill2 = "earthquake";
-                skill2Text = "Terremoto";
-
+                skill2Text = "Earthquake";
                 earthquakeSelected.GetComponent<Image>().rectTransform.anchoredPosition = new Vector2(secondSkillXPos, -334.1f);
-
                 blackSelected2.SetActive(true);
                 blackSelected2.transform.position = new Vector2(earthquakeButton.transform.position.x, earthquakeButton.transform.position.y);
-
-                confirmString = "<color=white>Tem certeza que deseja usar </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> e </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> como suas habilidades?</color>";
-
+                //confirmString = "<color=white>Tem certeza que deseja usar </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> e </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> como suas habilidades?</color>";
+                confirmString = "<color=white>Are you sure you want to use </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> and </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> as your skills?</color>";
                 playUpdate = false;
                 blockSelection.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(null);
             }
-
             skillCount++;
             EarthquakeSelect();
         }
-
         else
             ChooseError("earthquake");
     }
-
     public void FireupChoosed()
     {
         if (!alreadySubmited[2])
         {
             FindObjectOfType<AudioManager>().PlaySound("Fireup");
             fireupSelected.SetActive(true);
-
             alreadySubmited[2] = true;
-
             if (skillCount == 0)
             {
                 skill1 = "fireup";
-                skill1Text = "Acender";
-
+                skill1Text = "Fireup";
                 blackSelected1.SetActive(true);
                 blackSelected1.transform.position = new Vector2(fireupButton.transform.position.x, fireupButton.transform.position.y);
             }
-
             else if (skillCount == 1)
             {
                 skill2 = "fireup";
-                skill2Text = "Acender";
-
+                skill2Text = "Fireup";
                 fireupSelected.GetComponent<Image>().rectTransform.anchoredPosition = new Vector2(secondSkillXPos, -334.1f);
-
                 blackSelected2.SetActive(true);
                 blackSelected2.transform.position = new Vector2(fireupButton.transform.position.x, fireupButton.transform.position.y);
-
-                confirmString = "<color=white>Tem certeza que deseja usar </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> e </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> como suas habilidades?</color>";
-
+                //confirmString = "<color=white>Tem certeza que deseja usar </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> e </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> como suas habilidades?</color>";
+                confirmString = "<color=white>Are you sure you want to use </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> and </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> as your skills?</color>";
                 playUpdate = false;
                 blockSelection.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(null);
             }
-
             skillCount++;
             FireupSelect();
         }
-
         else
             ChooseError("fireup");
     }
-
     public void LaserChoosed()
     {
         if (!alreadySubmited[3])
         {
             FindObjectOfType<AudioManager>().PlaySound("Laser");
             laserSelected.SetActive(true);
-
             alreadySubmited[3] = true;
-
             if (skillCount == 0)
             {
                 skill1 = "laser";
@@ -498,7 +477,8 @@ public class SkillChooseController : MonoBehaviour
                 blackSelected2.SetActive(true);
                 blackSelected2.transform.position = new Vector2(laserButton.transform.position.x, laserButton.transform.position.y);
 
-                confirmString = "<color=white>Tem certeza que deseja usar </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> e </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> como suas habilidades?</color>";
+                //confirmString = "<color=white>Tem certeza que deseja usar </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> e </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> como suas habilidades?</color>";
+                confirmString = "<color=white>Are you sure you want to use </color>" + "<color=yellow>" + skill1Text + "</color>" + "<color=white> and </color>" + "<color=yellow>" + skill2Text + "</color>" + "<color=white> as your skills?</color>";
 
                 playUpdate = false;
                 blockSelection.SetActive(true);

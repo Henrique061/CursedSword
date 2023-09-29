@@ -60,7 +60,7 @@ public class LoadingController : MonoBehaviour
 
         ////////////////////////
 
-        input.SecondaryUI.Submit.performed += ctx => LoadEnd();
+        //input.SecondaryUI.Submit.performed += ctx => LoadEnd();
         input.SecondaryUI.RightTab.performed += ctx => PageAscend();
         input.SecondaryUI.LeftTab.performed += ctx => PageDescend();
     }

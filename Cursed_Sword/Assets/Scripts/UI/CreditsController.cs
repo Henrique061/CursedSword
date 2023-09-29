@@ -47,6 +47,7 @@ public class CreditsController : MonoBehaviour
             {
                 creditsIn = false;
                 playUpdate = true;
+                button.SetActive(true);
             }
 
             else
@@ -101,6 +102,7 @@ public class CreditsController : MonoBehaviour
 
     public void CreditsExit()
     {
+        button.SetActive(false);
         FindObjectOfType<AudioManager>().PlaySound("ChoiceSelect");
         timer = 0.5f;
         creditsAnim.SetTrigger("CreditsExit");
