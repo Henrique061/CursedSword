@@ -1702,7 +1702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -85.53}
+  m_AnchoredPosition: {x: 108, y: 19}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &34399954
@@ -7349,7 +7349,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "VOC\xCA MORREU"
+  m_Text: YOU DIED
 --- !u!222 &223134985
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24990,7 +24990,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 54
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -25001,7 +25001,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Menu Principal
+  m_Text: MAIN MENU
 --- !u!222 &641384400
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26496,8 +26496,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -198.39}
-  m_SizeDelta: {x: 570.69, y: 60.3}
+  m_AnchoredPosition: {x: -99.161, y: -212}
+  m_SizeDelta: {x: 647.62, y: 118.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &644310788
 MonoBehaviour:
@@ -37072,8 +37072,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -90.48999}
-  m_SizeDelta: {x: 449.37, y: 60.3}
+  m_AnchoredPosition: {x: -99.16, y: -60.321}
+  m_SizeDelta: {x: 647.67, y: 120.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905148874
 MonoBehaviour:
@@ -46065,7 +46065,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 54
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -46076,7 +46076,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Mudar Habilidades
+  m_Text: REPICK SKILLS
 --- !u!222 &1217042041
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -61939,8 +61939,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: -28.85, y: 32.45}
+  m_SizeDelta: {x: 2496.91, y: 1231.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1469360714
 MonoBehaviour:
@@ -72533,8 +72533,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -306.29}
-  m_SizeDelta: {x: 503.57, y: 60.3}
+  m_AnchoredPosition: {x: -99.147, y: -360}
+  m_SizeDelta: {x: 647.59, y: 111.49}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1712273166
 MonoBehaviour:
@@ -78325,7 +78325,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
-    m_FontSize: 54
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -78336,7 +78336,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Reiniciar Luta
+  m_Text: RETRY BATTLE
 --- !u!222 &1840813567
 CanvasRenderer:
   m_ObjectHideFlags: 0
