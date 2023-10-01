@@ -93,7 +93,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: logo
+  - name: Camada 3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -102,9 +102,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 1092
-      width: 480
-      height: 351
-    spriteID: 90354019ec58b934fa517edc9887388f
+      width: 435
+      height: 334
+    spriteID: 8ec3ddadef7714d4d83b83cc6a24a9ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -114,7 +114,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 1092}
-    spritePosition: {x: 1242, y: 684}
+    spritePosition: {x: 1242, y: 717}
   - name: fundo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -195,8 +195,8 @@ ScriptedImporter:
     layerID: 75
     mosaicPosition: {x: 4, y: 1092}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
   - name: controle
     spriteName: 
     isGroup: 1
@@ -776,6 +776,16 @@ ScriptedImporter:
     mosaicPosition: {x: 4, y: 1092}
     flatten: 0
     isImported: 0
+    isVisible: 1
+  - name: Camada 3
+    spriteName: Camada 3
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8ec3ddadef7714d4d83b83cc6a24a9ac
+    layerID: 110
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
     isVisible: 1
   - name: fundo
     spriteName: fundo
